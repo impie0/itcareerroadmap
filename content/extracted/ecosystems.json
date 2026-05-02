@@ -1,0 +1,4524 @@
+{
+  "microsoft-dynamics365-ecosystem": {
+    "id": "microsoft-dynamics365-ecosystem",
+    "name": "Microsoft Dynamics 365 + Power Platform Ecosystem",
+    "vendorKey": "Microsoft",
+    "sourceFile": "D01_Microsoft_Dynamics365_Ecosystem.md",
+    "totalCerts": 23,
+    "levels": [
+      {
+        "level": "Entry",
+        "certs": [
+          {
+            "vendor": "Microsoft",
+            "name": "PL-900: Power Platform Fundamentals",
+            "code": "PL-900",
+            "status": "active"
+          }
+        ]
+      },
+      {
+        "level": "Associate",
+        "certs": [
+          {
+            "vendor": "Microsoft",
+            "name": "PL-100: Power Platform App Maker Associate",
+            "code": "PL-100",
+            "status": "active",
+            "topics": [
+              "Design and create model-driven and canvas apps (25–30%)",
+              "Create cloud flows (25–30%)",
+              "Analyze and visualize data (15–20%)",
+              "Implement security and manage environments (15–20%)"
+            ]
+          },
+          {
+            "vendor": "Microsoft",
+            "name": "PL-200: Power Platform Functional Consultant Associate",
+            "code": "PL-200",
+            "status": "retiring",
+            "topics": [
+              "Discover and analyze requirements (15–20%)",
+              "Plan solutions (20–25%)",
+              "Implement solutions (30–35%)",
+              "Manage solutions and teams (15–20%)"
+            ]
+          },
+          {
+            "vendor": "Microsoft",
+            "name": "PL-300: Power BI Data Analyst Associate",
+            "code": "PL-300",
+            "status": "active",
+            "topics": [
+              "Prepare the data (25–30%)",
+              "Model the data (25–30%)",
+              "Visualize and analyze the data (25–30%)",
+              "Manage and secure Power BI (15–20%)"
+            ]
+          },
+          {
+            "vendor": "Microsoft",
+            "name": "PL-400: Power Platform Developer Associate",
+            "code": "PL-400",
+            "status": "active",
+            "topics": [
+              "Extend the platform (10–15%)",
+              "Develop Power Apps components (15–20%)",
+              "Develop Power Automate cloud flows (20–25%)",
+              "Implement Power Pages solutions (10–15%)",
+              "Manage solutions and deployments (15–20%)"
+            ]
+          },
+          {
+            "vendor": "Microsoft",
+            "name": "PL-500: Power Automate RPA Developer Associate",
+            "code": "PL-500",
+            "status": "retiring",
+            "topics": [
+              "Design and develop cloud flows (30–35%)",
+              "Design and develop desktop flows (35–40%)",
+              "Manage Power Automate environments and solutions (20–25%)"
+            ]
+          },
+          {
+            "vendor": "Microsoft",
+            "name": "MB-210: Dynamics 365 Sales",
+            "code": "MB-210",
+            "status": "active"
+          },
+          {
+            "vendor": "Microsoft",
+            "name": "MB-220: Dynamics 365 Marketing",
+            "code": "MB-220",
+            "status": "active"
+          },
+          {
+            "vendor": "Microsoft",
+            "name": "MB-230: Dynamics 365 Customer Service",
+            "code": "MB-230",
+            "status": "active"
+          },
+          {
+            "vendor": "Microsoft",
+            "name": "MB-240: Dynamics 365 Field Service",
+            "code": "MB-240",
+            "status": "retired"
+          },
+          {
+            "vendor": "Microsoft",
+            "name": "MB-280: Dynamics 365 Customer Experience Analyst Associate",
+            "code": "MB-280",
+            "status": "retiring"
+          },
+          {
+            "vendor": "Microsoft",
+            "name": "MB-310: Dynamics 365 Finance Functional Consultant Associate",
+            "code": "MB-310",
+            "status": "active",
+            "topics": [
+              "Set up and configure financial management (20–25%)",
+              "Implement and manage accounts payable and expenses (10–15%)",
+              "Implement and manage accounts receivable (15–20%)",
+              "Manage budgeting and fixed assets (15–20%)",
+              "Configure and manage financial reporting and consolidation (15–20%)"
+            ]
+          },
+          {
+            "vendor": "Microsoft",
+            "name": "MB-320: Dynamics 365 Finance & Operations Manufacturing Functional Consultant",
+            "code": "MB-320",
+            "status": "active"
+          },
+          {
+            "vendor": "Microsoft",
+            "name": "MB-330: Dynamics 365 Supply Chain Management Functional Consultant Associate",
+            "code": "MB-330",
+            "status": "retiring",
+            "topics": [
+              "Configure and manage the supply chain (25–30%)",
+              "Implement and manage inventory (20–25%)",
+              "Implement and manage sourcing and procurement (25–30%)",
+              "Implement and manage warehouse and transportation management (20–25%)"
+            ]
+          },
+          {
+            "vendor": "Microsoft",
+            "name": "MB-340: Dynamics 365 Commerce Functional Consultant",
+            "code": "MB-340",
+            "status": "retired"
+          },
+          {
+            "vendor": "Microsoft",
+            "name": "MB-500: Dynamics 365 Finance & Operations Apps Developer Associate",
+            "code": "MB-500",
+            "status": "active",
+            "topics": [
+              "Develop business logic using X++ (20–25%)",
+              "Create and modify reports and workspaces (15–20%)",
+              "Customize the user interface (10–15%)",
+              "Provide endpoints and APIs (10–15%)",
+              "Manage the implementation lifecycle (20–25%)",
+              "Test, monitor, and troubleshoot (10–15%)"
+            ]
+          },
+          {
+            "vendor": "Microsoft",
+            "name": "MB-800: Dynamics 365 Business Central Functional Consultant Associate",
+            "code": "MB-800",
+            "status": "active",
+            "topics": [
+              "Set up and configure Financial Management (30–35%)",
+              "Set up and configure Sales and Purchasing (30–35%)",
+              "Manage Inventory and Operations (20–25%)",
+              "Manage Security, Processes, and Workflows (10–15%)"
+            ]
+          },
+          {
+            "vendor": "Microsoft",
+            "name": "MB-820: Dynamics 365 Business Central Developer Associate",
+            "code": "MB-820",
+            "status": "active",
+            "topics": [
+              "Describe Business Central (10–15%)",
+              "Install, develop, and deploy for Business Central (10–15%)",
+              "Develop by using AL objects (35–40%)",
+              "Develop by using AL (15–20%)",
+              "Work with development tools (10–15%)",
+              "Integrate Business Central with other applications (10–15%)"
+            ]
+          },
+          {
+            "vendor": "Microsoft",
+            "name": "AB-210: Dynamics 365 Sales AI Consultant Associate",
+            "code": "AB-210",
+            "status": "active"
+          }
+        ]
+      },
+      {
+        "level": "Professional",
+        "certs": []
+      },
+      {
+        "level": "Expert",
+        "certs": [
+          {
+            "vendor": "Microsoft",
+            "name": "PL-600: Power Platform Solution Architect Expert",
+            "code": "PL-600",
+            "status": "retiring",
+            "topics": [
+              "Perform solution envisioning and requirement analysis (20–25%)",
+              "Architect a solution (50–55%)",
+              "Implement a solution (20–25%)"
+            ]
+          },
+          {
+            "vendor": "Microsoft",
+            "name": "MB-335: Supply Chain Management Functional Consultant Expert",
+            "code": "MB-335",
+            "status": "retiring"
+          },
+          {
+            "vendor": "Microsoft",
+            "name": "MB-700: Dynamics 365 Finance & Operations Apps Solution Architect Expert",
+            "code": "MB-700",
+            "status": "active"
+          },
+          {
+            "vendor": "Microsoft",
+            "name": "AB-100: Agentic AI Business Solutions Architect",
+            "code": "AB-100",
+            "status": "active"
+          }
+        ]
+      }
+    ],
+    "blurb": "Microsoft Dynamics 365 (D365) and the Power Platform represent a comprehensive ecosystem for enterprise business applications spanning customer relationship management (CRM), enterprise resource planning (ERP), human capital management (HCM), finance, supply chain management, and retail commerce. The ecosystem is evolving rapidly toward AI-driven, low-code/no-code solutions. As of April 2026, significant certification changes are underway, with multiple legacy certifications retiring in favor of new AI-focused credentials. This deep-dive covers the complete certification landscape, career path..."
+  },
+  "oracle-ecosystem": {
+    "id": "oracle-ecosystem",
+    "name": "The Oracle Ecosystem",
+    "vendorKey": "Oracle",
+    "sourceFile": "D02_Oracle_Ecosystem.md",
+    "totalCerts": 23,
+    "levels": [
+      {
+        "level": "Entry",
+        "certs": []
+      },
+      {
+        "level": "Associate",
+        "certs": [
+          {
+            "vendor": "Oracle",
+            "name": "Database SQL Certified Associate",
+            "code": "1Z0-071",
+            "status": "active",
+            "url": "https://education.oracle.com/oracle-database-sql/pexam_1Z0-071",
+            "cost": "USD $245",
+            "questions": "120 minutes, ~78 multiple-choice questions",
+            "passingScore": "63% (approximately 49 questions correct)"
+          },
+          {
+            "vendor": "Oracle",
+            "name": "Database 23ai Administration Associate",
+            "code": "1Z0-182",
+            "status": "active",
+            "url": "https://education.oracle.com/oracle-database-23ai-administration-associate/pexam_1Z0-182",
+            "cost": "USD $245",
+            "questions": "90 minutes, ~60 questions",
+            "passingScore": "60%"
+          },
+          {
+            "vendor": "Oracle",
+            "name": "Associate, MySQL 8.0 Database Administrator",
+            "code": "1Z0-908",
+            "status": "active",
+            "url": "https://education.oracle.com/mysql-80-database-administrator/pexam_1Z0-908",
+            "cost": "USD $245",
+            "questions": "90 minutes, ~60 questions",
+            "passingScore": "65%"
+          },
+          {
+            "vendor": "Oracle",
+            "name": "OCI Foundations Associate",
+            "code": "1Z0-1085-26",
+            "status": "active",
+            "url": "https://education.oracle.com/oracle-cloud-infrastructure-2026-foundations-associate/pexam_1Z0-1085-26",
+            "cost": "USD $245",
+            "questions": "60 minutes, 40 multiple-choice questions",
+            "passingScore": "65%"
+          },
+          {
+            "vendor": "Oracle",
+            "name": "OCI Developer Associate",
+            "code": "1Z0-1084-25",
+            "status": "active",
+            "url": "https://education.oracle.com/oracle-cloud-infrastructure-2025-developer-associate/trackp_OCIDA2025OCA",
+            "cost": "USD $295",
+            "questions": "90 minutes, ~60 questions",
+            "passingScore": "68%",
+            "topics": [
+              "Career Path: Cloud-native developer, platform engineer"
+            ]
+          },
+          {
+            "vendor": "Oracle",
+            "name": "OCI Operations Associate",
+            "code": "1Z0-1067",
+            "status": "active",
+            "url": "https://education.oracle.com/oracle-cloud-infrastructure-operations-associate/pexam_1Z0-1067",
+            "cost": "USD $245",
+            "questions": "90 minutes, ~60 questions",
+            "passingScore": "60%",
+            "topics": [
+              "Career Path: Operations engineer, systems administrator (cloud)"
+            ]
+          },
+          {
+            "vendor": "Oracle",
+            "name": "NetSuite ERP Consultant",
+            "status": "active",
+            "cost": "USD $250"
+          },
+          {
+            "vendor": "Oracle",
+            "name": "Associate, Java Programmer (OCA)",
+            "code": "OCA",
+            "status": "active",
+            "cost": "USD $245",
+            "questions": "90 minutes, ~50 questions",
+            "passingScore": "65%",
+            "topics": [
+              "Career Path: Junior Java developer, junior full-stack engineer"
+            ]
+          },
+          {
+            "vendor": "Oracle",
+            "name": "Java SE 21 Developer Certification",
+            "status": "active"
+          },
+          {
+            "vendor": "Oracle",
+            "name": "NetSuite SuiteFoundation (N16300GC10)",
+            "status": "active"
+          },
+          {
+            "vendor": "Oracle",
+            "name": "Java SE 17 Developer (1Z0-829)",
+            "code": "1Z0-829",
+            "status": "active"
+          }
+        ]
+      },
+      {
+        "level": "Professional",
+        "certs": [
+          {
+            "vendor": "Oracle",
+            "name": "Database 23ai Administration Professional",
+            "code": "1Z0-183",
+            "status": "active",
+            "url": "https://education.oracle.com/oracle-database-23ai-administration-professional/pexam_1Z0-183",
+            "cost": "USD $245",
+            "questions": "120 minutes, ~60 questions",
+            "passingScore": "60%"
+          },
+          {
+            "vendor": "Oracle",
+            "name": "Professional, MySQL 8.0 Database Administrator",
+            "code": "OCP",
+            "status": "active"
+          },
+          {
+            "vendor": "Oracle",
+            "name": "OCI Security Professional",
+            "code": "1Z0-1104-25",
+            "status": "active",
+            "url": "https://education.oracle.com/oracle-cloud-infrastructure-2025-security-professional/trackp_OCIS2025CP",
+            "cost": "USD $295",
+            "questions": "90 minutes, ~60 questions",
+            "passingScore": "68%",
+            "topics": [
+              "Career Path: Cloud security architect, compliance specialist"
+            ]
+          },
+          {
+            "vendor": "Oracle",
+            "name": "OCI Networking Professional",
+            "code": "1Z0-1124-25",
+            "status": "active",
+            "url": "https://education.oracle.com/oracle-cloud-infrastructure-2025-networking-professional/trackp_OCIN2025CP",
+            "cost": "USD $295",
+            "questions": "90 minutes, ~60 questions",
+            "passingScore": "68%",
+            "topics": [
+              "Career Path: Network architect, infrastructure specialist"
+            ]
+          },
+          {
+            "vendor": "Oracle",
+            "name": "OCI Data Science & AI Professional",
+            "code": "1Z0-1110",
+            "status": "active",
+            "cost": "USD $295 each",
+            "questions": "90 minutes, ~60 questions each",
+            "passingScore": "68%"
+          },
+          {
+            "vendor": "Oracle",
+            "name": "SuiteFoundation Specialist",
+            "status": "active",
+            "url": "https://education.oracle.com/oracle-netsuite-suitefoundation-specialist/pexam_N16300GC10",
+            "cost": "USD $250",
+            "questions": "120 minutes, ~80 questions",
+            "passingScore": "60%",
+            "topics": [
+              "Recommended Preparation: 6+ months hands-on NetSuite experience (or 2–4 weeks intensive study if experienced)",
+              "Career Path: End-user, junior system administrator"
+            ]
+          },
+          {
+            "vendor": "Oracle",
+            "name": "Analytics Cloud 2025 Certified Professional",
+            "code": "1Z0-1041-25",
+            "status": "active",
+            "cost": "USD $245",
+            "questions": "90 minutes, 60 questions",
+            "passingScore": "65%",
+            "topics": [
+              "Career Path: BI consultant, analytics architect"
+            ]
+          },
+          {
+            "vendor": "Oracle",
+            "name": "Professional, Java SE 17 Developer (OCP)",
+            "code": "OCP",
+            "status": "active",
+            "url": "https://education.oracle.com/java-se-17-developer/pexam_1Z0-829",
+            "cost": "USD $245",
+            "questions": "90 minutes, ~50 questions",
+            "passingScore": "68%",
+            "topics": [
+              "Career Path: Java developer, backend engineer, architect",
+              "Salary Range: USD $100K–$180K (varies by region, experience, specialization)"
+            ]
+          },
+          {
+            "vendor": "Oracle",
+            "name": "Linux 8 Certified Implementation Specialist",
+            "status": "active",
+            "cost": "USD $245",
+            "questions": "90 minutes, ~60 questions",
+            "passingScore": "60%",
+            "topics": [
+              "Career Path: Linux systems administrator, infrastructure engineer"
+            ]
+          }
+        ]
+      },
+      {
+        "level": "Expert",
+        "certs": [
+          {
+            "vendor": "Oracle",
+            "name": "OCI Architect Associate",
+            "code": "1Z0-1072-25",
+            "status": "retiring",
+            "url": "https://education.oracle.com/oracle-cloud-infrastructure-2025-certified-architect-associate/trackp_OCICAA2025OCA",
+            "cost": "USD $295",
+            "questions": "120 minutes, ~60 questions (hands-on scenario-based)",
+            "passingScore": "65%"
+          },
+          {
+            "vendor": "Oracle",
+            "name": "OCI Architect Professional",
+            "code": "1Z0-997-25",
+            "status": "active",
+            "url": "https://education.oracle.com/oracle-cloud-infrastructure-2025-certified-architect-professional/trackp_OCICAP2025OPN",
+            "cost": "USD $295",
+            "questions": "120 minutes, ~60 questions",
+            "passingScore": "68%"
+          },
+          {
+            "vendor": "Oracle",
+            "name": "OCI Multicloud Architect Associate",
+            "status": "active",
+            "url": "https://education.oracle.com"
+          }
+        ]
+      }
+    ],
+    "blurb": "The Oracle ecosystem spans **14+ sub-specializations** across on-premise databases, modern cloud platforms (OCI), enterprise applications (Fusion, E-Business Suite, JD Edwards, PeopleSoft), business intelligence, Java, and Linux. With over 250 active certifications and a workforce of hundreds of thousands globally, Oracle career paths range from junior DBA roles (40K–80K USD annually) to principal cloud architects (200K–400K+ USD)."
+  },
+  "healthcare-it": {
+    "id": "healthcare-it",
+    "name": "Healthcare IT: A Specialty Career Deep Dive",
+    "vendorKey": "Epic",
+    "sourceFile": "D03_Healthcare_IT.md",
+    "totalCerts": 8,
+    "levels": [
+      {
+        "level": "Entry",
+        "certs": [
+          {
+            "vendor": "Epic",
+            "name": "HCISPP (Healthcare Information Security and Privacy Practitioner)",
+            "status": "active",
+            "url": "https://www.isc2.org/Certifications/HCISPP",
+            "cost": "~$749 exam + study materials"
+          }
+        ]
+      },
+      {
+        "level": "Associate",
+        "certs": [
+          {
+            "vendor": "HIMSS",
+            "name": "CAHIMS (Certified Associate in Healthcare Information & Management Systems)",
+            "status": "active",
+            "url": "https://www.himss.org/certifications/cahims/",
+            "cost": "$229 (HIMSS members), $299 (non-members)"
+          },
+          {
+            "vendor": "Epic",
+            "name": "AMIA AHIC and Board Certification in Clinical Informatics",
+            "status": "active",
+            "url": "https://amia.org/careers-certifications/certification",
+            "cost": "Varies; typically $500–$800",
+            "rationale": "AMIA is a 6,400+ member professional association supporting health informatics careers at all levels. [AMIA](https://amia.org/)"
+          },
+          {
+            "vendor": "Epic",
+            "name": "Board Certification in Clinical Informatics (CIS Diplomate)",
+            "status": "active",
+            "url": "https://amia.org/careers-certifications/certification"
+          },
+          {
+            "vendor": "Oracle Health",
+            "name": "ONC Health IT Certification",
+            "status": "active",
+            "url": "https://www.healthit.gov/topic/certification-ehrs"
+          }
+        ]
+      },
+      {
+        "level": "Professional",
+        "certs": [
+          {
+            "vendor": "HIMSS",
+            "name": "CPHIMS (Certified Professional in Healthcare Information & Management Systems)",
+            "status": "active",
+            "url": "https://www.himss.org/certifications/cphims/",
+            "cost": "$229 (HIMSS members), $299 (non-members). Exam via Pearson Vue. [HIMSS: CPHIMS Certification](https://www.himss.org/certifications/cphims/)"
+          },
+          {
+            "vendor": "Epic",
+            "name": "AMIA AHIC (AMIA Health Informatics Certification) / ACHIP (AMIA Certified Health Informatics Professional)",
+            "status": "active",
+            "url": "https://amia.org/careers-certifications/certification",
+            "cost": "Varies; typically $500–$800"
+          },
+          {
+            "vendor": "Epic",
+            "name": "Big 4 and Specialty Consulting",
+            "status": "active"
+          }
+        ]
+      },
+      {
+        "level": "Expert",
+        "certs": []
+      }
+    ],
+    "blurb": "Healthcare IT is one of the highest-ROI entry and career-transition paths in IT—a niche with chronic staffing shortages, strong salary premiums, and genuine mission alignment. Unlike generic IT, healthcare IT couples technical rigor with deep regulatory knowledge, clinical domain awareness, and high patient-impact accountability. This specialization spans vendor-specific certifications (Epic, Oracle Health/Cerner, Meditech), healthcare standards (HIPAA, HL7 FHIR, DICOM), clinical informatics roles (RN-to-analyst pipelines), and Big 4 consulting engagements."
+  },
+  "aws-ecosystem": {
+    "id": "aws-ecosystem",
+    "name": "The Complete AWS Certification Ecosystem and Career Paths",
+    "vendorKey": "AWS",
+    "sourceFile": "D04_AWS_Ecosystem.md",
+    "totalCerts": 16,
+    "levels": [
+      {
+        "level": "Entry",
+        "certs": [
+          {
+            "vendor": "AWS",
+            "name": "Cloud Practitioner (CLF-C02)",
+            "code": "CLF-C02",
+            "status": "active",
+            "url": "https://aws.amazon.com/certification/certified-cloud-practitioner/",
+            "examGuideUrl": "https://d1.awsstatic.com/training-and-certification/docs-cloud-practitioner/AWS-Certified-Cloud-Practitioner_Exam-Guide.pdf"
+          },
+          {
+            "vendor": "AWS",
+            "name": "AI Practitioner (AIF-C01)",
+            "code": "AIF-C01",
+            "status": "active",
+            "url": "https://aws.amazon.com/certification/certified-ai-practitioner/"
+          }
+        ]
+      },
+      {
+        "level": "Associate",
+        "certs": [
+          {
+            "vendor": "AWS",
+            "name": "Developer Associate (DVA-C02)",
+            "code": "DVA-C02",
+            "status": "active",
+            "url": "https://aws.amazon.com/certification/certified-developer-associate/",
+            "examGuideUrl": "https://d1.awsstatic.com/training-and-certification/docs-dev-associate/AWS-Certified-Developer-Associate_Exam-Guide.pdf",
+            "topics": [
+              "Deployment (22% of scored content)",
+              "Security (26%)",
+              "Development with AWS Services (30%)",
+              "Refactoring (14%)",
+              "Monitoring and Troubleshooting (8%)"
+            ]
+          },
+          {
+            "vendor": "AWS",
+            "name": "CloudOps Engineer Associate (SOA-C03)",
+            "code": "SOA-C03",
+            "status": "active",
+            "url": "https://aws.amazon.com/certification/certified-cloudops-engineer-associate/",
+            "topics": [
+              "Deployment, Provisioning, and Infrastructure Management (26% of scored content)",
+              "Monitoring, Logging, and Remediation (32%)",
+              "Networking and Content Delivery (14%)",
+              "Security and Compliance (16%)",
+              "Cost and Performance Optimization (12%)"
+            ]
+          },
+          {
+            "vendor": "AWS",
+            "name": "Data Engineer Associate (DEA-C01)",
+            "status": "active",
+            "url": "https://aws.amazon.com/certification/certified-data-engineer-associate/",
+            "topics": [
+              "Data Ingestion and Transformation (34% of scored content)",
+              "Data Store Management (26%)",
+              "Data Operations and Support (18%)",
+              "Data Security and Governance (22%)"
+            ]
+          },
+          {
+            "vendor": "AWS",
+            "name": "Machine Learning Engineer Associate (MLA-C01)",
+            "code": "MLA-C01",
+            "status": "active",
+            "url": "https://aws.amazon.com/certification/certified-machine-learning-engineer-associate/",
+            "examGuideUrl": "https://d1.awsstatic.com/training-and-certification/docs-machine-learning-engineer-associate/AWS-Certified-Machine-Learning-Engineer-Associate_Exam-Guide.pdf"
+          }
+        ]
+      },
+      {
+        "level": "Professional",
+        "certs": [
+          {
+            "vendor": "AWS",
+            "name": "DevOps Engineer Professional (DOP-C02)",
+            "code": "DOP-C02",
+            "status": "active",
+            "url": "https://aws.amazon.com/certification/certified-devops-engineer-professional/",
+            "examGuideUrl": "https://d1.awsstatic.com/training-and-certification/docs-devops-pro/AWS-Certified-DevOps-Engineer-Professional_Exam-Guide.pdf"
+          },
+          {
+            "vendor": "AWS",
+            "name": "Advanced Networking Specialty (ANS-C01)",
+            "code": "ANS-C01",
+            "status": "active",
+            "url": "https://aws.amazon.com/certification/certified-advanced-networking-specialty/",
+            "examGuideUrl": "https://d1.awsstatic.com/training-and-certification/docs-advnetworking-spec/AWS-Certified-Advanced-Networking-Specialty_Exam-Guide.pdf"
+          },
+          {
+            "vendor": "AWS",
+            "name": "Security Specialty (SCS-C03)",
+            "code": "SCS-C03",
+            "status": "active",
+            "url": "https://aws.amazon.com/certification/certified-security-specialty/",
+            "examGuideUrl": "https://d1.awsstatic.com/onedam/marketing-channels/website/aws/en_US/certification/approved/pdfs/docs-security-spec/AWS-Certified-Security-Specialty_Exam-Guide-03.pdf"
+          },
+          {
+            "vendor": "AWS",
+            "name": "Machine Learning Specialty (MLS-C01)",
+            "code": "MLS-C01",
+            "status": "retiring",
+            "url": "https://aws.amazon.com/blogs/training-and-certification/"
+          },
+          {
+            "vendor": "AWS",
+            "name": "Generative AI Developer Professional",
+            "status": "active"
+          },
+          {
+            "vendor": "AWS",
+            "name": "Database Specialty (DBS-C01)",
+            "code": "DBS-C01",
+            "status": "active",
+            "url": "https://aws.amazon.com/certification/certified-database-specialty/",
+            "examGuideUrl": "https://d1.awsstatic.com/training-and-certification/docs-database-specialty/AWS-Certified-Database-Specialty_Exam-Guide.pdf"
+          },
+          {
+            "vendor": "AWS",
+            "name": "Data Analytics Specialty (DAS-C01)",
+            "code": "DAS-C01",
+            "status": "active",
+            "url": "https://aws.amazon.com/certification/certified-data-analytics-specialty/",
+            "examGuideUrl": "https://d1.awsstatic.com/training-and-certification/docs-data-analytics-specialty/AWS-Certified-Data-Analytics-Specialty_Exam-Guide.pdf",
+            "topics": [
+              "Collection (18% of scored content)",
+              "Storage and Data Management (22%)",
+              "Processing (24%)",
+              "Analysis (18%)",
+              "Visualization (18%)"
+            ]
+          },
+          {
+            "vendor": "AWS",
+            "name": "SAP on AWS Specialty (PAS-C01)",
+            "status": "active",
+            "url": "https://aws.amazon.com/certification/certified-sap-on-aws-specialty/",
+            "examGuideUrl": "https://d1.awsstatic.com/training-and-certification/docs-sap-on-aws-specialty/SAP-on-AWS-Specialty_Exam-Guide.pdf",
+            "topics": [
+              "SAP Landscape and Architecture (18% of scored content)",
+              "SAP Operational and Migration Scenarios (22%)",
+              "SAP Workload Security (20%)",
+              "SAP Deployment Automation (22%)",
+              "Monitoring and Optimization (18%)"
+            ]
+          }
+        ]
+      },
+      {
+        "level": "Expert",
+        "certs": [
+          {
+            "vendor": "AWS",
+            "name": "Solutions Architect Associate (SAA-C03)",
+            "code": "SAA-C03",
+            "status": "active",
+            "url": "https://aws.amazon.com/certification/certified-solutions-architect-associate/",
+            "topics": [
+              "Design Resilient Architectures (30% of scored content)",
+              "Design High-Performing Architectures (28%)",
+              "Design Secure Applications and Architectures (24%)",
+              "Design Cost-Optimized Architectures (18%)"
+            ]
+          },
+          {
+            "vendor": "AWS",
+            "name": "Solutions Architect Professional (SAP-C02)",
+            "code": "SAP-C02",
+            "status": "active",
+            "url": "https://aws.amazon.com/certification/certified-solutions-architect-professional/",
+            "topics": [
+              "Design for Organizational Complexity (29% of scored content)",
+              "Design for New Solutions (31%)",
+              "Continuously Improve Existing Solutions (21%)",
+              "Accelerate Workload Migration and Modernization (19%)"
+            ]
+          }
+        ]
+      }
+    ],
+    "blurb": "AWS offers a ladder of 12 certifications spanning foundational (1), associate (6), professional (2), and specialty (3) tiers. As of April 2026, the ecosystem has been reshaped by three major changes:"
+  },
+  "microsoft-azure-m365-ecosystem": {
+    "id": "microsoft-azure-m365-ecosystem",
+    "name": "Microsoft Azure + M365 Certification Ecosystem — Deep Dive",
+    "vendorKey": "Microsoft",
+    "sourceFile": "D05_Microsoft_Azure_M365_Ecosystem.md",
+    "totalCerts": 33,
+    "levels": [
+      {
+        "level": "Entry",
+        "certs": [
+          {
+            "vendor": "Microsoft",
+            "name": "AZ-900: Azure Fundamentals",
+            "code": "AZ-900",
+            "status": "active"
+          },
+          {
+            "vendor": "Microsoft",
+            "name": "AI-900: Azure AI Fundamentals",
+            "code": "AI-900",
+            "status": "retiring"
+          },
+          {
+            "vendor": "Microsoft",
+            "name": "DP-900: Azure Data Fundamentals",
+            "code": "DP-900",
+            "status": "active"
+          },
+          {
+            "vendor": "Microsoft",
+            "name": "SC-900: Security, Compliance & Identity Fundamentals",
+            "code": "SC-900",
+            "status": "active"
+          },
+          {
+            "vendor": "Microsoft",
+            "name": "MS-900: Microsoft 365 Fundamentals",
+            "code": "MS-900",
+            "status": "active"
+          },
+          {
+            "vendor": "Microsoft",
+            "name": "PL-900: Power Platform Fundamentals",
+            "code": "PL-900",
+            "status": "active"
+          }
+        ]
+      },
+      {
+        "level": "Associate",
+        "certs": [
+          {
+            "vendor": "Microsoft",
+            "name": "AZ-104: Azure Administrator Associate",
+            "code": "AZ-104",
+            "status": "active",
+            "rationale": "Source: Glassdoor, levels.fyi, Robert Half 2026 IT Salary Guide."
+          },
+          {
+            "vendor": "Microsoft",
+            "name": "AZ-204: Azure Developer Associate",
+            "code": "AZ-204",
+            "status": "retiring"
+          },
+          {
+            "vendor": "Microsoft",
+            "name": "AZ-500: Azure Security Engineer Associate",
+            "code": "AZ-500",
+            "status": "retiring"
+          },
+          {
+            "vendor": "Microsoft",
+            "name": "AZ-700: Azure Network Engineer Associate",
+            "code": "AZ-700",
+            "status": "active"
+          },
+          {
+            "vendor": "Microsoft",
+            "name": "AZ-800 / AZ-801: Windows Server Hybrid Administrator",
+            "code": "AZ-800",
+            "status": "retiring"
+          },
+          {
+            "vendor": "Microsoft",
+            "name": "DP-100: Azure Data Scientist Associate",
+            "code": "DP-100",
+            "status": "retiring"
+          },
+          {
+            "vendor": "Microsoft",
+            "name": "DP-300: Azure Database Administrator Associate",
+            "code": "DP-300",
+            "status": "active"
+          },
+          {
+            "vendor": "Microsoft",
+            "name": "DP-203: Azure Data Engineer Associate",
+            "code": "DP-203",
+            "status": "retired"
+          },
+          {
+            "vendor": "Microsoft",
+            "name": "DP-700: Fabric Data Engineer Associate",
+            "code": "DP-700",
+            "status": "active"
+          },
+          {
+            "vendor": "Microsoft",
+            "name": "AI-102: Azure AI Engineer Associate",
+            "code": "AI-102",
+            "status": "retiring"
+          },
+          {
+            "vendor": "Microsoft",
+            "name": "SC-200: Security Operations Analyst Associate",
+            "code": "SC-200",
+            "status": "active"
+          },
+          {
+            "vendor": "Microsoft",
+            "name": "SC-300: Identity & Access Administrator Associate",
+            "code": "SC-300",
+            "status": "active"
+          },
+          {
+            "vendor": "Microsoft",
+            "name": "MD-102: Endpoint Administrator Associate",
+            "code": "MD-102",
+            "status": "active"
+          },
+          {
+            "vendor": "Microsoft",
+            "name": "PL-100: App Maker Associate",
+            "code": "PL-100",
+            "status": "active"
+          },
+          {
+            "vendor": "Microsoft",
+            "name": "PL-200: Functional Consultant Associate",
+            "code": "PL-200",
+            "status": "active"
+          },
+          {
+            "vendor": "Microsoft",
+            "name": "PL-300: Power BI Data Analyst Associate",
+            "code": "PL-300",
+            "status": "active"
+          },
+          {
+            "vendor": "Microsoft",
+            "name": "MS-700: Teams Administrator Associate",
+            "code": "MS-700",
+            "status": "active"
+          },
+          {
+            "vendor": "Microsoft",
+            "name": "MS-203: Messaging Administrator",
+            "code": "MS-203",
+            "status": "retired"
+          }
+        ]
+      },
+      {
+        "level": "Professional",
+        "certs": [
+          {
+            "vendor": "Microsoft",
+            "name": "AZ-120: SAP Workloads on Azure Specialist",
+            "code": "AZ-120",
+            "status": "active"
+          },
+          {
+            "vendor": "Microsoft",
+            "name": "AZ-140: Azure Virtual Desktop Specialty",
+            "code": "AZ-140",
+            "status": "active"
+          },
+          {
+            "vendor": "Microsoft",
+            "name": "AZ-180: Networking Specialty",
+            "code": "AZ-180",
+            "status": "active"
+          }
+        ]
+      },
+      {
+        "level": "Expert",
+        "certs": [
+          {
+            "vendor": "Microsoft",
+            "name": "MS-102: Microsoft 365 Administrator Expert (Replaces Old M365 Track)",
+            "code": "MS-102",
+            "status": "active"
+          },
+          {
+            "vendor": "Microsoft",
+            "name": "AZ-305: Solutions Architect Expert",
+            "code": "AZ-305",
+            "status": "active"
+          },
+          {
+            "vendor": "Microsoft",
+            "name": "AZ-400: DevOps Engineer Expert",
+            "code": "AZ-400",
+            "status": "active"
+          },
+          {
+            "vendor": "Microsoft",
+            "name": "SC-100: Cybersecurity Architect Expert",
+            "code": "SC-100",
+            "status": "active"
+          },
+          {
+            "vendor": "Microsoft",
+            "name": "SC-500: Cloud and AI Security Engineer Expert",
+            "code": "SC-500",
+            "status": "retiring"
+          },
+          {
+            "vendor": "Microsoft",
+            "name": "PL-400: Developer Expert",
+            "code": "PL-400",
+            "status": "active"
+          }
+        ]
+      }
+    ],
+    "blurb": "The Microsoft Azure and Microsoft 365 (M365) certification ecosystem comprises 30+ active certifications spanning **Fundamentals**, **Associate** (role-based), **Expert** (specialization), and **Specialty** tiers. As of April 30, 2026, the portfolio is undergoing significant transformation: **7 certifications retiring** across Q2–Q3 2026, with AI-focused replacements accelerating the shift toward agentic AI, Microsoft Fabric data platforms, and cloud-native security engineering."
+  },
+  "workday-ecosystem": {
+    "id": "workday-ecosystem",
+    "name": "The Workday Ecosystem",
+    "vendorKey": "Workday",
+    "sourceFile": "D06_Workday_Ecosystem.md",
+    "totalCerts": 8,
+    "levels": [
+      {
+        "level": "Entry",
+        "certs": []
+      },
+      {
+        "level": "Associate",
+        "certs": [
+          {
+            "vendor": "Workday",
+            "name": "Pro HCM Consultant",
+            "status": "active"
+          },
+          {
+            "vendor": "Workday",
+            "name": "Pro Financial Management Consultant",
+            "status": "active"
+          },
+          {
+            "vendor": "Workday",
+            "name": "Pro Adaptive Planning Consultant",
+            "status": "active"
+          },
+          {
+            "vendor": "Workday",
+            "name": "Pro Integrations Consultant (Studio)",
+            "status": "retiring"
+          },
+          {
+            "vendor": "Workday",
+            "name": "Pro Extend Developer",
+            "status": "retiring"
+          },
+          {
+            "vendor": "Workday",
+            "name": "Pro Orchestrate Developer",
+            "status": "active"
+          },
+          {
+            "vendor": "Workday",
+            "name": "Pro Security Administrator",
+            "status": "active",
+            "url": "https://www.workday.com/en-us/services/certifications.html"
+          }
+        ]
+      },
+      {
+        "level": "Professional",
+        "certs": [
+          {
+            "vendor": "Workday",
+            "name": "Pro Reporting Specialist",
+            "status": "active"
+          }
+        ]
+      },
+      {
+        "level": "Expert",
+        "certs": []
+      }
+    ],
+    "blurb": "Workday is a high-barrier, high-reward IT specialization. The platform dominates enterprise **Human Capital Management (HCM)** and **Financial Management (FM)** for Fortune 500 and mid-market organizations. Certified Workday consultants earn **$126,858–$168,409 annually** (2026 data), with seniority and specialization pushing above $200K for architects. However, Workday's training is **gated**: access to certification pathways requires employment at a Workday customer or approved partner organization. This creates a structural moat but also a clear barrier to entry."
+  },
+  "adobe-experience-cloud": {
+    "id": "adobe-experience-cloud",
+    "name": "Adobe Experience Cloud — SaaS Specialty Ecosystem",
+    "vendorKey": "Adobe",
+    "sourceFile": "D07_Adobe_Experience_Cloud.md",
+    "totalCerts": 10,
+    "levels": [
+      {
+        "level": "Entry",
+        "certs": [
+          {
+            "vendor": "Adobe",
+            "name": "Business Practitioner",
+            "status": "active"
+          },
+          {
+            "vendor": "Adobe",
+            "name": "Real-Time CDP Technical Practitioner – Professional",
+            "status": "active"
+          }
+        ]
+      },
+      {
+        "level": "Associate",
+        "certs": []
+      },
+      {
+        "level": "Professional",
+        "certs": [
+          {
+            "vendor": "Adobe",
+            "name": "Activation Specialist",
+            "status": "active",
+            "rationale": "Salary range: USD $120,000–$180,000 (median), growing 5–8% annually."
+          },
+          {
+            "vendor": "Adobe",
+            "name": "Conversion Rate Optimization (CRO) Specialist",
+            "status": "active"
+          },
+          {
+            "vendor": "Adobe",
+            "name": "Analytics Specialist"
+          }
+        ]
+      },
+      {
+        "level": "Expert",
+        "certs": [
+          {
+            "vendor": "Adobe",
+            "name": "Commerce Solution Architect – Master",
+            "status": "active"
+          },
+          {
+            "vendor": "Adobe",
+            "name": "Campaign Classic Architect – Master",
+            "status": "active"
+          },
+          {
+            "vendor": "Adobe",
+            "name": "CDP Data Architect",
+            "status": "active"
+          },
+          {
+            "vendor": "Adobe",
+            "name": "Marketo Architect"
+          },
+          {
+            "vendor": "Adobe",
+            "name": "Solution Architect"
+          }
+        ]
+      }
+    ]
+  },
+  "observability-platforms": {
+    "id": "observability-platforms",
+    "name": "Observability + Apm Platform Ecosystem Deep Dive",
+    "vendorKey": "Multi",
+    "sourceFile": "D08_Observability_Platforms.md",
+    "totalCerts": 23,
+    "levels": [
+      {
+        "level": "Entry",
+        "certs": [
+          {
+            "vendor": "Datadog",
+            "name": "Datadog Fundamentals"
+          },
+          {
+            "vendor": "Datadog",
+            "name": "Datadog Log Management Fundamentals"
+          },
+          {
+            "vendor": "Datadog",
+            "name": "Datadog APM Fundamentals"
+          },
+          {
+            "vendor": "New Relic",
+            "name": "New Relic Certified APM Practitioner – Associate (APA)"
+          }
+        ]
+      },
+      {
+        "level": "Associate",
+        "certs": [
+          {
+            "vendor": "Dynatrace",
+            "name": "Dynatrace Associate"
+          },
+          {
+            "vendor": "Elastic",
+            "name": "Elastic Certified Observability Engineer"
+          },
+          {
+            "vendor": "Elastic",
+            "name": "Elastic Certified Engineer"
+          },
+          {
+            "vendor": "Elastic",
+            "name": "Elastic Certified Analyst"
+          },
+          {
+            "vendor": "Splunk",
+            "name": "O11y Cloud Certified Metrics User (SOCCMU)"
+          },
+          {
+            "vendor": "Appdynamics",
+            "name": "AppDynamics Associate Administrator"
+          },
+          {
+            "vendor": "Appdynamics",
+            "name": "AppDynamics Associate Performance Analyst"
+          },
+          {
+            "vendor": "Prometheus",
+            "name": "Prometheus Certified Associate (PCA)"
+          },
+          {
+            "vendor": "Grafana",
+            "name": "Certified Grafana Associate"
+          },
+          {
+            "vendor": "Multi",
+            "name": "Incident Responder Certification"
+          },
+          {
+            "vendor": "Multi",
+            "name": "Incident Management Certification"
+          },
+          {
+            "vendor": "Multi",
+            "name": "OpenTelemetry Certified Associate (OTCA)"
+          },
+          {
+            "vendor": "Appdynamics",
+            "name": "AppDynamics Associate",
+            "status": "active"
+          },
+          {
+            "vendor": "Grafana",
+            "name": "Grafana Certified Associate",
+            "status": "active"
+          }
+        ]
+      },
+      {
+        "level": "Professional",
+        "certs": [
+          {
+            "vendor": "New Relic",
+            "name": "New Relic Certified Performance Engineer – Professional (PEP)"
+          },
+          {
+            "vendor": "New Relic",
+            "name": "New Relic Certified Reliability Engineer – Professional (REP)"
+          },
+          {
+            "vendor": "Dynatrace",
+            "name": "Dynatrace Professional"
+          },
+          {
+            "vendor": "Appdynamics",
+            "name": "AppDynamics Professional Implementer"
+          }
+        ]
+      },
+      {
+        "level": "Expert",
+        "certs": [
+          {
+            "vendor": "Dynatrace",
+            "name": "Dynatrace Master"
+          }
+        ]
+      }
+    ]
+  },
+  "salesforce-ecosystem": {
+    "id": "salesforce-ecosystem",
+    "name": "The Salesforce Ecosystem",
+    "vendorKey": "Salesforce",
+    "sourceFile": "D09_Salesforce_Ecosystem.md",
+    "totalCerts": 38,
+    "levels": [
+      {
+        "level": "Entry",
+        "certs": [
+          {
+            "vendor": "Salesforce",
+            "name": "Platform Developer I (PDI) / Apex Fundamentals",
+            "status": "active",
+            "url": "https://trailhead.salesforce.com/credentials/platformdeveloperi",
+            "topics": [
+              "Apex programming (variables, control flow, OOP)",
+              "SOQL and SOSL queries",
+              "Triggers and asynchronous processing",
+              "REST/SOAP API",
+              "Visualforce (legacy) and Lightning Web Components (LWC)",
+              "Testing and code coverage (75% minimum required)",
+              "Batch and scheduled apex"
+            ]
+          },
+          {
+            "vendor": "Salesforce",
+            "name": "Entry-Level Architecture Certifications (Composite)",
+            "status": "active"
+          }
+        ]
+      },
+      {
+        "level": "Associate",
+        "certs": [
+          {
+            "vendor": "Salesforce",
+            "name": "Sales Cloud Consultant",
+            "status": "active",
+            "topics": [
+              "Sales methodology integration (MEDDIC, Sandler, SPIN selling)",
+              "Account and opportunity management",
+              "Leads and lead management",
+              "Forecasting and quota management",
+              "Chatter for sales teams",
+              "Mobile sales (Salesforce for Outlook/Gmail integration)",
+              "Einstein Analytics (AI-driven insights)"
+            ]
+          },
+          {
+            "vendor": "Salesforce",
+            "name": "Service Cloud Consultant",
+            "status": "active",
+            "topics": [
+              "Case management and automation",
+              "Knowledge management",
+              "Service Cloud communities",
+              "Omnichannel communication (voice, chat, email, social)",
+              "Service analytics and reporting",
+              "Field Service Lightning (field technician management)",
+              "Einstein Service Cloud (AI for case routing, suggestion)"
+            ]
+          },
+          {
+            "vendor": "Salesforce",
+            "name": "Experience Cloud Consultant",
+            "status": "active",
+            "topics": [
+              "Community creation and configuration",
+              "Page layouts and navigation",
+              "Community members and permissions",
+              "Lightning Communities and Aura components",
+              "Moderation and governance",
+              "Community analytics"
+            ]
+          },
+          {
+            "vendor": "Salesforce",
+            "name": "Field Service Consultant",
+            "status": "active",
+            "topics": [
+              "Service territory and dispatch optimization",
+              "Work orders and service appointments",
+              "Mobile synchronization",
+              "Resource scheduling",
+              "Field Service Lightning (mapping, navigation, customer signatures)",
+              "Maintenance agreements and preventative maintenance"
+            ]
+          },
+          {
+            "vendor": "Salesforce",
+            "name": "Data Cloud Consultant",
+            "status": "active",
+            "topics": [
+              "Data model design and normalization",
+              "Data ingestion and governance",
+              "Unified data management",
+              "Customer 360 data integration",
+              "Real-time analytics and CDP (Customer Data Platform) features",
+              "Privacy and compliance (GDPR, CCPA)"
+            ]
+          },
+          {
+            "vendor": "Salesforce",
+            "name": "Education Cloud Consultant",
+            "status": "active",
+            "topics": [
+              "Student and applicant management",
+              "Course scheduling and enrollment",
+              "Financial aid and scholarships",
+              "Advancement and donor management",
+              "Reporting and predictive analytics"
+            ]
+          },
+          {
+            "vendor": "Salesforce",
+            "name": "Tableau Server Certified Associate",
+            "status": "active",
+            "rationale": "Validates ability to install, configure, and manage Tableau Server infrastructure. - Cost: $150  \n- Passing Score: 65%  \n- Salary Range: $85–$120K"
+          },
+          {
+            "vendor": "Salesforce",
+            "name": "Certified Developer",
+            "status": "active"
+          },
+          {
+            "vendor": "Salesforce",
+            "name": "Slack Certified Administrator",
+            "status": "active",
+            "rationale": "Validates Slack workspace administration, user management, security, and compliance. - Cost: $100  \n- Questions: 60 multiple choice  \n- Duration: 90 minutes  \n- Passing Score: 65%  \n- Prerequisites: 6–12 months hands-on admin experience  \n- Validity: 3 years  \n- Salary Range: $75–$110K"
+          },
+          {
+            "vendor": "Salesforce",
+            "name": "Slack Certified Developer",
+            "status": "active",
+            "rationale": "Validates ability to build custom Slack apps, bots, and integrations. - Cost: $200  \n- Retake: $100  \n- Questions: 60 multiple choice  \n- Duration: 90 minutes  \n- Passing Score: 65%  \n- Prerequisites: Strong JavaScript/TypeScript, Slack API knowledge  \n- Validity: 3 years  \n- Salary Range: $100–$140K"
+          },
+          {
+            "vendor": "Salesforce",
+            "name": "Slack Certified Consultant",
+            "status": "active",
+            "url": "https://www.salesforceben.com/slack-admin-developer-certifications-available/",
+            "rationale": "Validates ability to design and implement Slack solutions across organizations. - Cost: $200  \n- Salary Range: $110–$155K"
+          }
+        ]
+      },
+      {
+        "level": "Professional",
+        "certs": [
+          {
+            "vendor": "Salesforce",
+            "name": "Marketing Cloud Engagement Specialist",
+            "status": "active",
+            "topics": [
+              "Campaign orchestration and multi-touch journeys",
+              "Advanced segmentation and personalization",
+              "Account-based marketing (ABM)",
+              "Lead lifecycle management",
+              "Compliance and data governance (GDPR, CCPA)"
+            ]
+          },
+          {
+            "vendor": "Salesforce",
+            "name": "Marketing Cloud Email Specialist",
+            "status": "active",
+            "topics": [
+              "Email design and optimization",
+              "Content blocks and personalization",
+              "A/B testing and analytics",
+              "Dynamic content",
+              "Journey Builder email orchestration"
+            ]
+          },
+          {
+            "vendor": "Salesforce",
+            "name": "CPQ Specialist (Configure-Price-Quote)",
+            "status": "active",
+            "url": "https://trailhead.salesforce.com/credentials/cpqspecialist",
+            "topics": [
+              "Bundle configuration and pricing models",
+              "Price rules and discount strategies",
+              "Quote templates and output documents",
+              "Renewals and amendments",
+              "Contract lifecycle management",
+              "Revenue recognition integration"
+            ]
+          },
+          {
+            "vendor": "Salesforce",
+            "name": "Health Cloud Accredited Professional",
+            "status": "active",
+            "topics": [
+              "Patient and provider management",
+              "EHR integration (HL7, FHIR)",
+              "Care plans and clinical workflows",
+              "HIPAA compliance and data governance",
+              "Patient engagement (portals, messaging)",
+              "Health data exchange standards"
+            ]
+          },
+          {
+            "vendor": "Salesforce",
+            "name": "Financial Services Cloud Specialist",
+            "status": "active",
+            "topics": [
+              "Client portfolio and relationship management",
+              "Wealth and investment workflows",
+              "Insurance product management",
+              "Loan and lending operations",
+              "Regulatory compliance (FINRA, SOX, Dodd-Frank)",
+              "Financial data modeling"
+            ]
+          },
+          {
+            "vendor": "Salesforce",
+            "name": "Manufacturing Cloud Specialist",
+            "status": "active",
+            "topics": [
+              "Order management and tracking",
+              "Supply chain collaboration",
+              "Product lifecycle management (PLM) integration",
+              "Inventory and logistics",
+              "Bill of materials (BOM) management",
+              "Supplier relationship management (SRM)"
+            ]
+          },
+          {
+            "vendor": "Salesforce",
+            "name": "Public Sector Solutions Specialist",
+            "status": "active",
+            "topics": [
+              "Government compliance (Section 508, FISMA, FedRAMP)",
+              "Citizen engagement and constituent management",
+              "Grant management",
+              "Benefits administration",
+              "Public sector data governance"
+            ]
+          },
+          {
+            "vendor": "Salesforce",
+            "name": "Consumer Goods Cloud Specialist",
+            "status": "active",
+            "topics": [
+              "Account and customer hierarchy",
+              "Retail execution (shopper insights, trade promotions)",
+              "Territory management",
+              "Demand planning",
+              "Retail compliance and visibility"
+            ]
+          },
+          {
+            "vendor": "Salesforce",
+            "name": "Energy & Utilities Cloud Specialist",
+            "status": "active",
+            "topics": [
+              "Meter management and smart grid integration",
+              "Outage management",
+              "Service order orchestration",
+              "Field technician dispatch",
+              "Regulatory compliance (NERC, FERC)",
+              "Energy efficiency program management"
+            ]
+          },
+          {
+            "vendor": "Salesforce",
+            "name": "Tableau Desktop Specialist",
+            "status": "active"
+          },
+          {
+            "vendor": "Salesforce",
+            "name": "CRM Analytics / Einstein Analytics Specialist",
+            "status": "active",
+            "url": "https://www.igmguru.com/blog/tableau-certifications",
+            "rationale": "Validates Einstein Analytics (formerly Analytics Cloud) and advanced analytics within Salesforce CRM. - Cost: $200  \n- Salary Range: $100–$150K"
+          }
+        ]
+      },
+      {
+        "level": "Expert",
+        "certs": [
+          {
+            "vendor": "Salesforce",
+            "name": "Application Architect",
+            "status": "active",
+            "rationale": "Validates ability to design application solutions (data, integrations, security, governance)."
+          },
+          {
+            "vendor": "Salesforce",
+            "name": "Data Architecture and Management Designer",
+            "status": "active"
+          },
+          {
+            "vendor": "Salesforce",
+            "name": "Sharing and Visibility Architect",
+            "status": "active"
+          },
+          {
+            "vendor": "Salesforce",
+            "name": "Identity and Access Management Architect",
+            "status": "active"
+          },
+          {
+            "vendor": "Salesforce",
+            "name": "Integration Architecture Designer",
+            "status": "active"
+          },
+          {
+            "vendor": "Salesforce",
+            "name": "System Architect",
+            "status": "active",
+            "rationale": "Validates ability to design platform solutions (development lifecycle, automation, customization)."
+          },
+          {
+            "vendor": "Salesforce",
+            "name": "Development Lifecycle and Deployment Architect",
+            "status": "active"
+          },
+          {
+            "vendor": "Salesforce",
+            "name": "Heroku Architect",
+            "status": "active",
+            "topics": [
+              "Heroku deployment models (Dynos, add-ons)",
+              "Buildpacks and containerization",
+              "Salesforce integration from Heroku apps",
+              "Scalability and performance"
+            ],
+            "rationale": "Designs containerized, cloud-native applications on Salesforce Heroku (platform-as-a-service for Node, Python, Ruby, etc.)."
+          },
+          {
+            "vendor": "Salesforce",
+            "name": "B2B Solution Architect",
+            "status": "active",
+            "topics": [
+              "Partner portal design",
+              "B2B e-commerce (products, catalogs, pricing)",
+              "Order orchestration",
+              "Document exchange and workflows",
+              "Revenue sharing and incentives"
+            ],
+            "rationale": "Designs B2B e-commerce and partner ecosystems (partner portals, order management, collaboration)."
+          },
+          {
+            "vendor": "Salesforce",
+            "name": "B2C Solution Architect",
+            "status": "active",
+            "topics": [
+              "Customer portal and community design",
+              "Loyalty program integration",
+              "E-commerce and shopping experience",
+              "Personalization engines (Einstein)",
+              "Customer journey orchestration"
+            ],
+            "rationale": "Designs B2C customer engagement solutions (consumer portals, loyalty, e-commerce, personalization)."
+          },
+          {
+            "vendor": "Salesforce",
+            "name": "Tableau Certified Associate Architect",
+            "status": "active",
+            "rationale": "Mid-level; validates enterprise Tableau deployment architecture and best practices. - Cost: $250  \n- Prerequisite: 1+ year Tableau experience  \n- Passing Score: 65%  \n- Salary Range: $96,500–$191,000 (with average ~$141,736)"
+          },
+          {
+            "vendor": "Salesforce",
+            "name": "Tableau Architect (Full Architect)",
+            "status": "active",
+            "rationale": "Top-tier; enterprise-scale deployment, governance, optimization. - Cost: $250  \n- Passing Score: 65%  \n- Salary Range: $130–$200K"
+          },
+          {
+            "vendor": "Salesforce",
+            "name": "Platform Architect",
+            "status": "active"
+          },
+          {
+            "vendor": "Salesforce",
+            "name": "Integration Architect",
+            "status": "active"
+          }
+        ]
+      }
+    ],
+    "blurb": "Salesforce is the world's largest customer relationship management (CRM) platform, with 48+ certifications spanning entry-level administrators to board-reviewed architects. As of 2026, the ecosystem includes vertical Industry Clouds (Health, Financial Services, Manufacturing, Public Sector, Consumer Goods, Energy & Utilities), cloud-specific specialist tracks (Sales Cloud, Service Cloud, Marketing Cloud, Experience Cloud, Field Service, CPQ, Data Cloud), and acquisitions like Tableau, MuleSoft, and Slack that now offer their own credential pathways within the Salesforce academy."
+  },
+  "sap-ecosystem": {
+    "id": "sap-ecosystem",
+    "name": "SAP Ecosystem Deep Dive",
+    "vendorKey": "SAP",
+    "sourceFile": "D10_SAP_Ecosystem.md",
+    "totalCerts": 4,
+    "levels": [
+      {
+        "level": "Entry",
+        "certs": []
+      },
+      {
+        "level": "Associate",
+        "certs": [
+          {
+            "vendor": "SAP",
+            "name": "HANA Technology Associate",
+            "status": "active"
+          }
+        ]
+      },
+      {
+        "level": "Professional",
+        "certs": []
+      },
+      {
+        "level": "Expert",
+        "certs": [
+          {
+            "vendor": "SAP",
+            "name": "P_BTPA: Solution Architect – SAP BTP",
+            "status": "active"
+          },
+          {
+            "vendor": "SAP",
+            "name": "Solutions Architect – S/4HANA Finance (P_S4FIN)",
+            "status": "active"
+          },
+          {
+            "vendor": "SAP",
+            "name": "Enterprise Architect – SAP (P_S4EA)",
+            "status": "active"
+          }
+        ]
+      }
+    ]
+  },
+  "servicenow-ecosystem": {
+    "id": "servicenow-ecosystem",
+    "name": "The ServiceNow Ecosystem Deep Dive",
+    "vendorKey": "ServiceNow",
+    "sourceFile": "D11_ServiceNow_Ecosystem.md",
+    "totalCerts": 5,
+    "levels": [
+      {
+        "level": "Entry",
+        "certs": []
+      },
+      {
+        "level": "Associate",
+        "certs": [
+          {
+            "vendor": "ServiceNow",
+            "name": "CSA (Certified System Administrator)",
+            "status": "active"
+          },
+          {
+            "vendor": "ServiceNow",
+            "name": "CAD (Certified Application Developer)",
+            "status": "active"
+          }
+        ]
+      },
+      {
+        "level": "Professional",
+        "certs": [
+          {
+            "vendor": "ServiceNow",
+            "name": "CIS-DF (Certified Implementation Specialist – Data Foundations)",
+            "status": "active"
+          }
+        ]
+      },
+      {
+        "level": "Expert",
+        "certs": [
+          {
+            "vendor": "ServiceNow",
+            "name": "CTA (Certified Technical Architect)",
+            "status": "active"
+          },
+          {
+            "vendor": "ServiceNow",
+            "name": "CMA (Certified Master Architect)",
+            "status": "active"
+          }
+        ]
+      }
+    ],
+    "blurb": "ServiceNow is the most widely deployed enterprise workflow platform globally, with a dominant footprint in IT Service Management (ITSM), HR Service Delivery, customer service, security operations, and governance-risk-compliance. The platform has evolved from a niche ticketing tool to a comprehensive digital workflow engine powering Fortune 500 transformations."
+  },
+  "ibm-ecosystem": {
+    "id": "ibm-ecosystem",
+    "name": "IBM Ecosystem — Deep Dive",
+    "vendorKey": "IBM",
+    "sourceFile": "D12_IBM_Ecosystem.md",
+    "totalCerts": 21,
+    "levels": [
+      {
+        "level": "Entry",
+        "certs": [
+          {
+            "vendor": "IBM",
+            "name": "Advocate - Cloud (Foundational, Free Path Available)",
+            "code": "C9003700",
+            "status": "active"
+          },
+          {
+            "vendor": "IBM",
+            "name": "Database Associate - DB2 11.1 Fundamentals for LUW",
+            "status": "active"
+          },
+          {
+            "vendor": "IBM",
+            "name": "Cloud Advocate"
+          },
+          {
+            "vendor": "IBM",
+            "name": "z/OS Mainframe Practitioner (Coursera)"
+          }
+        ]
+      },
+      {
+        "level": "Associate",
+        "certs": [
+          {
+            "vendor": "IBM",
+            "name": "Certified Solution Developer - Integration Bus v10.0",
+            "status": "active"
+          },
+          {
+            "vendor": "IBM",
+            "name": "Certified Database Administrator - DB2 11.1 for Linux, UNIX, Windows (LUW)",
+            "status": "active"
+          },
+          {
+            "vendor": "IBM",
+            "name": "Certified Administrator - Db2 12 for z/OS",
+            "code": "C0005400",
+            "status": "active"
+          },
+          {
+            "vendor": "IBM",
+            "name": "Red Hat Certified System Administrator (RHCSA)",
+            "status": "active"
+          },
+          {
+            "vendor": "IBM",
+            "name": "Red Hat Certified Engineer (RHCE)",
+            "status": "active"
+          },
+          {
+            "vendor": "IBM",
+            "name": "Quantum Computation using Qiskit v2.X Developer - Associate",
+            "code": "C9008400",
+            "status": "active",
+            "url": "https://www.ibm.com/quantum/blog/qiskit-v2x-developer-certification"
+          },
+          {
+            "vendor": "IBM",
+            "name": "Red Hat Certified Eng (RHCE)"
+          },
+          {
+            "vendor": "IBM",
+            "name": "Watsonx Data Scientist - Associate"
+          }
+        ]
+      },
+      {
+        "level": "Professional",
+        "certs": [
+          {
+            "vendor": "IBM",
+            "name": "Professional Developer - Cloud",
+            "status": "active"
+          },
+          {
+            "vendor": "IBM",
+            "name": "Professional Cloud SRE v2",
+            "code": "F1003500",
+            "status": "active"
+          },
+          {
+            "vendor": "IBM",
+            "name": "Specialist - Flash Technical Solutions v2",
+            "status": "active"
+          },
+          {
+            "vendor": "IBM",
+            "name": "Specialist - Storage Technical v2",
+            "code": "C0005007",
+            "status": "active"
+          },
+          {
+            "vendor": "IBM",
+            "name": "Specialist - Virtualized Storage v2",
+            "code": "C0001506",
+            "status": "active"
+          },
+          {
+            "vendor": "IBM",
+            "name": "Cloud Pak for AIOps v4.6 Administrator - Professional",
+            "code": "C9007400",
+            "status": "active"
+          },
+          {
+            "vendor": "IBM",
+            "name": "Storage Specialist"
+          }
+        ]
+      },
+      {
+        "level": "Expert",
+        "certs": [
+          {
+            "vendor": "IBM",
+            "name": "Professional Architect - Cloud v6",
+            "code": "C9005800",
+            "status": "active"
+          },
+          {
+            "vendor": "IBM",
+            "name": "Advanced Architect v2",
+            "code": "F1002700",
+            "status": "active"
+          }
+        ]
+      }
+    ],
+    "blurb": "IBM's ecosystem spans **foundational cloud certifications, generative AI (Watsonx), mainframe Z systems, enterprise infrastructure (AIX, Storage, MQ, API Connect), and quantum computing**. The company is now anchored by three major acquisition integrations: **Red Hat** (Linux/Ansible leadership), **HashiCorp** (infrastructure-as-code via Terraform/Vault, closed Feb 2025), and **IBM Research** (open-source AI models via Granite)."
+  },
+  "vmware-broadcom-ecosystem": {
+    "id": "vmware-broadcom-ecosystem",
+    "name": "VMware/Broadcom Ecosystem Post-Acquisition",
+    "vendorKey": "VMware",
+    "sourceFile": "D13_VMware_Broadcom_Ecosystem.md",
+    "totalCerts": 15,
+    "levels": [
+      {
+        "level": "Entry",
+        "certs": []
+      },
+      {
+        "level": "Associate",
+        "certs": [
+          {
+            "vendor": "VMware",
+            "name": "VCP-DCV Retirement & VCP-VVF Replacement",
+            "status": "retired"
+          },
+          {
+            "vendor": "VMware",
+            "name": "Omnissa Certified Administrator (OCA)",
+            "code": "OCA",
+            "status": "active"
+          },
+          {
+            "vendor": "VMware",
+            "name": "Omnissa Certified Engineer (OCE)",
+            "status": "active"
+          },
+          {
+            "vendor": "VMware",
+            "name": "VCP/VCAP Credential Depreciation",
+            "code": "CKA",
+            "status": "active"
+          },
+          {
+            "vendor": "VMware",
+            "name": "Free Home-Lab Licenses for Certified Professionals",
+            "status": "active"
+          },
+          {
+            "vendor": "VMware",
+            "name": "VCP (Intermediate)"
+          },
+          {
+            "vendor": "VMware",
+            "name": "VCAP (Advanced)"
+          }
+        ]
+      },
+      {
+        "level": "Professional",
+        "certs": [
+          {
+            "vendor": "VMware",
+            "name": "Carbon Black Application Control Technical Specialist",
+            "status": "active"
+          },
+          {
+            "vendor": "VMware",
+            "name": "Carbon Black Endpoint Detection & Response Technical Specialist",
+            "status": "active"
+          },
+          {
+            "vendor": "VMware",
+            "name": "NSX Specialist"
+          },
+          {
+            "vendor": "VMware",
+            "name": "vSAN Specialist"
+          },
+          {
+            "vendor": "VMware",
+            "name": "Aria/vRealize Specialist"
+          },
+          {
+            "vendor": "VMware",
+            "name": "Tanzu/Kubernetes Specialist"
+          }
+        ]
+      },
+      {
+        "level": "Expert",
+        "certs": [
+          {
+            "vendor": "VMware",
+            "name": "VCDX (Expert)"
+          },
+          {
+            "vendor": "VMware",
+            "name": "Technical Skills Complementing VCP/VCAP/VCDX",
+            "code": "CKA",
+            "status": "active"
+          }
+        ]
+      }
+    ],
+    "blurb": "On November 22, 2023, Broadcom closed its $69 billion acquisition of VMware (61B equity + 8B debt assumption), fundamentally reshaping the virtualization and datacenter technology landscape. This deep dive examines the post-acquisition certification ecosystem, licensing model changes, salary trajectories, learning pathways, and the mass customer migration wave that redefined IT infrastructure careers in 2024-2026."
+  },
+  "cisco-ecosystem": {
+    "id": "cisco-ecosystem",
+    "name": "Cisco Certification Ecosystem — Deep Dive",
+    "vendorKey": "Cisco",
+    "sourceFile": "D14_Cisco_Ecosystem.md",
+    "totalCerts": 22,
+    "levels": [
+      {
+        "level": "Entry",
+        "certs": [
+          {
+            "vendor": "Cisco",
+            "name": "CCST IT Support (100-140)",
+            "code": "100-140",
+            "status": "active",
+            "topics": [
+              "Hardware troubleshooting (PCs, peripherals, connectivity)",
+              "Operating system support (Windows, macOS, Linux basics)",
+              "User support workflows and ticketing",
+              "Basic network connectivity (Ethernet, Wi-Fi, TCP/IP)",
+              "Security threat identification and reporting",
+              "Mobile device support"
+            ]
+          },
+          {
+            "vendor": "Cisco",
+            "name": "CCST Networking (100-150)",
+            "code": "100-150",
+            "status": "active",
+            "topics": [
+              "OSI model layers 1–4",
+              "Ethernet, IPv4, IPv6, DHCP, DNS",
+              "Routing & switching fundamentals",
+              "Basic network configuration and troubleshooting",
+              "Network security principles",
+              "Cabling standards and physical infrastructure"
+            ]
+          },
+          {
+            "vendor": "Cisco",
+            "name": "CCST Cybersecurity (100-160)",
+            "code": "100-160",
+            "status": "active",
+            "topics": [
+              "Security principles (CIA triad, defense in depth)",
+              "Network security concepts (firewalls, IDS, VPN)",
+              "Endpoint security and malware",
+              "Vulnerability assessment and risk management",
+              "Incident response procedures and reporting",
+              "Compliance fundamentals (GDPR, HIPAA concepts)"
+            ]
+          }
+        ]
+      },
+      {
+        "level": "Associate",
+        "certs": [
+          {
+            "vendor": "Cisco",
+            "name": "CCNA 200-301",
+            "code": "200-301",
+            "status": "active",
+            "topics": [
+              "Network Fundamentals (15%)",
+              "Network Access (20%)",
+              "IP Connectivity (25%)",
+              "IP Services (10%)",
+              "Security Fundamentals (15%)",
+              "Automation and Programmability (15%)"
+            ]
+          },
+          {
+            "vendor": "Cisco",
+            "name": "CCNA Cybersecurity",
+            "code": "CCNA",
+            "status": "active",
+            "rationale": "Cisco launched a dedicated CCNA Cybersecurity pathway to align with rising demand for security-aware networking professionals."
+          },
+          {
+            "vendor": "Cisco",
+            "name": "CCNA Automation",
+            "code": "CCNA",
+            "status": "active",
+            "topics": [
+              "API design and consumption (REST, gRPC, GraphQL basics)",
+              "Network programmability (NETCONF, YANG, RESTCONF)",
+              "Python fundamentals for network automation",
+              "Software development lifecycle basics",
+              "DevOps concepts and CI/CD pipelines"
+            ]
+          }
+        ]
+      },
+      {
+        "level": "Professional",
+        "certs": [
+          {
+            "vendor": "Cisco",
+            "name": "CCNP Enterprise",
+            "code": "CCNP",
+            "status": "active",
+            "rationale": "The largest and most popular CCNP track, covering enterprise network architecture, design, and advanced troubleshooting."
+          },
+          {
+            "vendor": "Cisco",
+            "name": "300-410 ENARSI (Enterprise Advanced Routing & Services)",
+            "code": "300-410",
+            "status": "active",
+            "topics": [
+              "Advanced EIGRP configuration and optimization",
+              "OSPF advanced design (multi-area, stub types)",
+              "BGP fundamentals through advanced confederation/communities",
+              "VPN technologies (IPsec, DMVPN, GET VPN, site-to-site)",
+              "Infrastructure security (routing protocol authentication, control-plane policing)",
+              "QoS implementation and troubleshooting",
+              "Multicast (PIM modes, IGMP)"
+            ]
+          },
+          {
+            "vendor": "Cisco",
+            "name": "300-415 ENSDWI (SD-WAN Implementation)",
+            "code": "300-415",
+            "status": "active",
+            "topics": [
+              "SD-WAN architecture and components (vManage, vSmart, vEdge)",
+              "AppRoute and traffic engineering",
+              "Centralized policy and control",
+              "Multi-cloud connectivity (AWS, Azure, GCP)",
+              "Security in SD-WAN (integrated firewalling, threat prevention)",
+              "Performance monitoring and optimization",
+              "Migration strategies from traditional WAN"
+            ]
+          },
+          {
+            "vendor": "Cisco",
+            "name": "300-420 ENSLD (Enterprise Network Design)",
+            "code": "300-420",
+            "status": "active",
+            "topics": [
+              "Enterprise campus design (core, distribution, access tiers; collapsed models)",
+              "Addressing and routing strategy (hierarchical addressing, summarization)",
+              "WAN design (traditional MPLS, modern SD-WAN hybrid)",
+              "QoS design and implementation strategy",
+              "Security services module design (DLP, proxy, threat prevention placement)",
+              "Network services design (DHCP, DNS, NTP, SNMP)",
+              "High availability and redundancy patterns",
+              "Data center interconnect design",
+              "Segment Routing (SR) and SDA design"
+            ]
+          },
+          {
+            "vendor": "Cisco",
+            "name": "CCNP Service Provider",
+            "code": "CCNP",
+            "status": "active",
+            "rationale": "For telecommunications engineers, ISPs, and carrier-network specialists."
+          },
+          {
+            "vendor": "Cisco",
+            "name": "CCNP Data Center",
+            "code": "CCNP",
+            "status": "active"
+          },
+          {
+            "vendor": "Cisco",
+            "name": "CCNP Security",
+            "code": "CCNP",
+            "status": "active"
+          },
+          {
+            "vendor": "Cisco",
+            "name": "CCNP Collaboration",
+            "code": "CCNP",
+            "status": "active",
+            "rationale": "For unified communications and collaboration platform specialists."
+          },
+          {
+            "vendor": "Cisco",
+            "name": "CCNP Wireless",
+            "code": "CCNP",
+            "status": "active",
+            "topics": [
+              "Wi-Fi 6 (802.11ax) and Wi-Fi 6E architecture",
+              "Enterprise wireless design and deployment",
+              "Cisco Meraki cloud management",
+              "Wireless security (WPA3, 802.1X)",
+              "Roaming, Band Steering, and Spatial Multiplexing",
+              "Mesh networking"
+            ],
+            "rationale": "Dedicated wireless credential—restored as standalone CCNP after years of wireless being embedded in other tracks."
+          },
+          {
+            "vendor": "Cisco",
+            "name": "CCNP Automation",
+            "code": "CCNP",
+            "status": "active",
+            "topics": [
+              "Advanced Python for network automation (classes, OOP, testing)",
+              "Infrastructure-as-Code (Ansible, Terraform, Salt)",
+              "Containerization (Docker, Kubernetes basics)",
+              "Cloud-native networking (microservices, service mesh concepts)",
+              "AI/ML in network operations (Cisco DNA Center analytics)",
+              "Monitoring and logging at scale (Splunk, ELK integration post-2024 Splunk acquisition)",
+              "Automation testing and validation"
+            ]
+          },
+          {
+            "vendor": "Cisco",
+            "name": "Meraki Solutions Specialist (ECMS)",
+            "code": "500-220",
+            "status": "active",
+            "topics": [
+              "Meraki cloud architecture and access methods",
+              "Dashboard organization and licensing",
+              "Meraki SD-WAN (AutoVPN, traffic engineering)",
+              "Meraki switching and routing",
+              "Wireless (Meraki MX, MR access points, MG cellular gateways)",
+              "Security (MX, Web Content Filter, Advanced Security)",
+              "Monitoring and troubleshooting (Live Tools, Client Details, Wireless Health)",
+              "Deployment at scale (thousands of sites)"
+            ],
+            "rationale": "The Engineering Cisco Meraki Solutions (ECMS) validates expertise in cloud-managed networking with Cisco Meraki."
+          }
+        ]
+      },
+      {
+        "level": "Expert",
+        "certs": [
+          {
+            "vendor": "Cisco",
+            "name": "CCIE Service Provider",
+            "code": "CCIE",
+            "status": "active"
+          },
+          {
+            "vendor": "Cisco",
+            "name": "CCIE Data Center",
+            "code": "CCIE",
+            "status": "active"
+          },
+          {
+            "vendor": "Cisco",
+            "name": "CCIE Security",
+            "code": "CCIE",
+            "status": "active"
+          },
+          {
+            "vendor": "Cisco",
+            "name": "CCIE Collaboration",
+            "code": "CCIE",
+            "status": "active",
+            "rationale": "6. CCIE Wireless (relaunched March 2026)\n7."
+          },
+          {
+            "vendor": "Cisco",
+            "name": "CCIE Automation",
+            "code": "CCIE",
+            "status": "active",
+            "topics": [
+              "Design of large-scale automation platforms",
+              "Multi-vendor automation (Cisco + open-source tools)",
+              "Security in automation pipelines",
+              "Scalability and high availability in automation infrastructure"
+            ]
+          }
+        ]
+      }
+    ],
+    "blurb": "Cisco has undergone a comprehensive certification overhaul in early 2026 to align credentials with AI and automation demands, simplify naming, and provide clearer career progression pathways."
+  },
+  "juniper-ecosystem": {
+    "id": "juniper-ecosystem",
+    "name": "Juniper Networks Certification Ecosystem: Deep Dive",
+    "vendorKey": "Juniper",
+    "sourceFile": "D15_Juniper_Ecosystem.md",
+    "totalCerts": 22,
+    "levels": [
+      {
+        "level": "Entry",
+        "certs": []
+      },
+      {
+        "level": "Associate",
+        "certs": [
+          {
+            "vendor": "Juniper",
+            "name": "JNCIA-Junos (JN0-105)",
+            "code": "JN0-105",
+            "status": "active",
+            "url": "https://www.juniper.net/us/en/training/certification/tracks/junos/jncia-junos.html",
+            "examGuideUrl": "https://www.certificationbox.com/2026/02/05/roadmap-to-success-jn0-105-jncia-junos-certification/",
+            "cost": "$100–$200 |",
+            "duration": "90 minutes |",
+            "questions": "65 |",
+            "topics": [
+              "Junos OS architecture (control plane, forwarding plane, routing engine)",
+              "User interfaces (CLI, Junos Space GUI)",
+              "Network fundamentals (IP addressing, collision domains, CoS)",
+              "Interface configuration and operational management",
+              "Routing protocols (OSPF, BGP, RIP, IS-IS neighbor establishment)",
+              "Basic security concepts",
+              "Troubleshooting fundamentals"
+            ],
+            "rationale": "The foundational Juniper certification, covering Junos OS fundamentals, CLI navigation, routing basics, and operational monitoring. Targets network administrators transitioning to Juniper or junior network engineers building core competency."
+          },
+          {
+            "vendor": "Juniper",
+            "name": "JNCIA-MistAI (JN0-253)",
+            "code": "JN0-253",
+            "status": "active",
+            "url": "https://www.juniper.net/us/en/training/certification/tracks/mist-ai/jncia-mistai.html",
+            "cost": "$200 |",
+            "duration": "90 minutes |",
+            "questions": "65 |",
+            "topics": [
+              "Mist Cloud fundamentals and architecture",
+              "AI-driven monitoring and troubleshooting",
+              "Wireless and wired network operations",
+              "Configuration workflows (Web UI, API)",
+              "Assurance engine and anomaly detection",
+              "SD-WAN integration with Mist",
+              "End-user experience optimization"
+            ],
+            "rationale": "Juniper's fastest-growing associate track, validating entry-level knowledge of the Mist AI platform — an AI-native networking solution for wireless LAN, wired networks, and cloud connectivity. Mist AI is Juniper's flagship product following the HPE acquisition, with deep integration planned across Aruba wireless."
+          },
+          {
+            "vendor": "Juniper",
+            "name": "JNCIA-DevOps (JN0-223 / JN0-224)",
+            "code": "JN0-223",
+            "status": "active",
+            "cost": "$200 |",
+            "duration": "90 minutes |",
+            "questions": "65 |",
+            "topics": [
+              "Juniper automation tools (NETCONF, YANG, Junos automation scripts)",
+              "Ansible/Puppet integration with Junos",
+              "REST API interactions",
+              "Configuration management and version control",
+              "Python for network automation",
+              "Monitoring and logging integration",
+              "CI/CD pipelines for network changes"
+            ],
+            "rationale": "For network engineers adopting DevOps principles, automation frameworks, and infrastructure-as-code patterns to manage Juniper devices at scale."
+          },
+          {
+            "vendor": "Juniper",
+            "name": "JNCIA-SEC (JN0-231)",
+            "code": "JN0-231",
+            "status": "active",
+            "url": "https://www.juniper.net/us/en/training/certification/tracks/security/jncia-sec.html",
+            "cost": "$200 |",
+            "duration": "90 minutes |",
+            "questions": "65 |",
+            "topics": [
+              "Junos OS security architecture",
+              "SRX Series firewall fundamentals",
+              "Security zones and policies",
+              "Network Address Translation (NAT) concepts",
+              "IPSec VPN basics",
+              "Unified Threat Management (UTM) overview",
+              "User authentication and identity",
+              "Logging and monitoring for security events"
+            ],
+            "rationale": "Covers entry-level security concepts on Juniper SRX firewalls and Junos security features — the pathway to enterprise network security roles."
+          },
+          {
+            "vendor": "Juniper",
+            "name": "JNCIA-Cloud (JN0-211 / JN0-212)",
+            "code": "JN0-211",
+            "status": "active",
+            "cost": "$200 |",
+            "duration": "90 minutes |",
+            "questions": "65 |",
+            "topics": [
+              "Juniper Cloud networking principles",
+              "Cloud-based network design and architecture",
+              "SD-WAN in public/private/hybrid clouds",
+              "Security in cloud environments",
+              "Monitoring and observability for cloud networks",
+              "Cloud service provider integrations (AWS, Azure, GCP)"
+            ],
+            "rationale": "Validates understanding of Juniper's cloud-native networking, SD-WAN in the cloud, and hybrid multicloud architectures."
+          },
+          {
+            "vendor": "Juniper",
+            "name": "JNCIA-DC (JN0-280)",
+            "code": "JN0-280",
+            "status": "active",
+            "cost": "$200 |",
+            "duration": "90 minutes |",
+            "questions": "65 |",
+            "topics": [
+              "Data center network architecture",
+              "Juniper QFX Series switches (spine-leaf fabric)",
+              "EVPN (Ethernet Virtual Private Network) basics",
+              "VXLAN fundamentals",
+              "Data center security and segmentation",
+              "High availability and redundancy",
+              "Fabric operations and monitoring"
+            ],
+            "rationale": "For network professionals entering data center operations and infrastructure roles, covering spine-leaf architectures, data center switching, and fabric design."
+          },
+          {
+            "vendor": "Juniper",
+            "name": "JNCIS-ENT (Enterprise Routing & Switching)",
+            "code": "JNCIS-ENT",
+            "status": "active",
+            "url": "https://www.juniper.net/us/en/training/certification/tracks/enterprise-routing-switching/jncis-ent.html",
+            "cost": "$300 |",
+            "duration": "90 minutes |",
+            "questions": "65–70 |",
+            "topics": [
+              "Advanced routing protocols (OSPF, BGP, ISIS optimization)",
+              "Route policy and filtering",
+              "VLAN and STP in enterprise networks",
+              "VPN technologies (site-to-site, remote access)",
+              "Quality of Service (QoS) implementation",
+              "High availability (VRRP, graceful restart)",
+              "Troubleshooting complex routing issues"
+            ],
+            "rationale": "For enterprise network engineers deploying Juniper in large corporate networks — campus, branch, data center edge."
+          },
+          {
+            "vendor": "Juniper",
+            "name": "JNCIS-SP (Service Provider Routing & Switching)",
+            "code": "JNCIS-SP",
+            "status": "active",
+            "url": "https://www.juniper.net/us/en/training/certification/tracks/service-provider-routing-switching/jncis-sp.html",
+            "cost": "$300 |",
+            "duration": "90 minutes |",
+            "questions": "65–70 |",
+            "topics": [
+              "MPLS fundamentals and traffic engineering",
+              "MPLS VPNs (Layer 3 VPNs)",
+              "Multicast routing (PIM, IGMP)",
+              "BGP scaling and convergence",
+              "QoS in service provider networks",
+              "CoS (Class of Service) at scale",
+              "Service provider network design and redundancy"
+            ],
+            "rationale": "For telecom and service provider engineers — validates skills in carrier-scale routing, MPLS, and multicast."
+          },
+          {
+            "vendor": "Juniper",
+            "name": "JNCIS-ENT/SP/DC/SEC",
+            "code": "JNCIS-ENT"
+          },
+          {
+            "vendor": "Juniper",
+            "name": "Security Certifications Consolidation",
+            "code": "JNCIA-SEC",
+            "status": "active"
+          }
+        ]
+      },
+      {
+        "level": "Professional",
+        "certs": [
+          {
+            "vendor": "Juniper",
+            "name": "JNCIS-DC (Data Center Specialist)",
+            "code": "JNCIS-DC",
+            "status": "active",
+            "cost": "$300 |",
+            "duration": "90 minutes |",
+            "questions": "65–70 |",
+            "topics": [
+              "Data center fabric design and deployment (spine-leaf)",
+              "EVPN overlay networks",
+              "VXLAN tunneling and segmentation",
+              "Fabric automation (Contrail, Junos Space)",
+              "Data center load balancing",
+              "Disaster recovery and geo-redundancy",
+              "Fabric troubleshooting and monitoring"
+            ],
+            "rationale": "Specializes in large-scale data center fabric operations, automation, and troubleshooting."
+          },
+          {
+            "vendor": "Juniper",
+            "name": "JNCIS-SEC (Security Specialist)",
+            "code": "JNCIS-SEC",
+            "status": "active",
+            "url": "https://www.juniper.net/us/en/training/certification/tracks/security/jncis-sec.html",
+            "cost": "$300 |",
+            "duration": "90 minutes |",
+            "questions": "65–70 |",
+            "topics": [
+              "SRX platform architecture (branch, high-end)",
+              "Advanced security policies and zones",
+              "IPSec and SSL VPN implementation",
+              "Intrusion detection/prevention (IDP/IPS)",
+              "Application layer gateway (ALG)",
+              "User authentication and AAA",
+              "DDoS protection and rate limiting",
+              "Security log monitoring and forensics"
+            ],
+            "rationale": "For security engineers deploying SRX firewalls in enterprise and service provider environments."
+          },
+          {
+            "vendor": "Juniper",
+            "name": "JNCIP-ENT (Enterprise Professional)",
+            "code": "JNCIP-ENT",
+            "status": "active",
+            "url": "https://www.juniper.net/us/en/training/certification/tracks/enterprise-routing-switching/jncip-ent.html",
+            "cost": "$400 |",
+            "duration": "90 minutes |",
+            "questions": "65–70 |",
+            "topics": [
+              "Advanced routing design and optimization",
+              "Multi-protocol BGP designs",
+              "MPLS-based service integration",
+              "Advanced VPN architectures",
+              "Network scalability and redundancy design",
+              "Service provider-style routing in enterprises",
+              "Complex troubleshooting scenarios"
+            ],
+            "rationale": "For enterprise architects designing and deploying large-scale Juniper infrastructure."
+          },
+          {
+            "vendor": "Juniper",
+            "name": "JNCIP-SP (Service Provider Professional)",
+            "code": "JNCIP-SP",
+            "status": "active",
+            "url": "https://www.juniper.net/us/en/training/certification/tracks/service-provider-routing-switching/jncip-sp.html",
+            "cost": "$400 |",
+            "duration": "90 minutes |",
+            "questions": "65–70 |",
+            "topics": [
+              "MPLS-TE and segment routing",
+              "EVPN for service provider networks",
+              "VXLAN data center interconnect (DCI)",
+              "Multicast scaling and optimization",
+              "BGP design for carriers (mega-scale)",
+              "Network slicing and virtualization",
+              "Service provider infrastructure resilience"
+            ],
+            "rationale": "For senior telecom and carrier engineers — the gold standard for service provider technical leadership."
+          },
+          {
+            "vendor": "Juniper",
+            "name": "JNCIP-DC (Data Center Professional)",
+            "code": "JNCIP-DC",
+            "status": "active",
+            "cost": "$400 |",
+            "duration": "90 minutes |",
+            "questions": "65–70 |",
+            "topics": [
+              "Large-scale spine-leaf fabric design",
+              "EVPN route reflector architecture",
+              "Fabric automation at scale (Junos Space, Contrail)",
+              "Data center security and microsegmentation",
+              "Multi-region data center design",
+              "Fabric performance optimization",
+              "DevOps integration for DC networking"
+            ],
+            "rationale": "For data center network architects managing multi-site, multi-fabric deployments."
+          },
+          {
+            "vendor": "Juniper",
+            "name": "JNCIP-SEC (Security Professional)",
+            "code": "JNCIP-SEC",
+            "status": "active",
+            "cost": "$400 |",
+            "duration": "90 minutes |",
+            "questions": "65–70 |",
+            "topics": [
+              "Advanced SRX architecture and clustering",
+              "Threat prevention and DDoS at scale",
+              "User identity and access management (IAM)",
+              "Encrypted traffic inspection",
+              "Advanced policy design for complex environments",
+              "Security service chains",
+              "Forensic log analysis and compliance reporting"
+            ],
+            "rationale": "For chief security architects designing enterprise firewall and threat prevention infrastructure."
+          },
+          {
+            "vendor": "Juniper",
+            "name": "JNCIP-ENT/SP/DC/SEC",
+            "code": "JNCIP-ENT"
+          }
+        ]
+      },
+      {
+        "level": "Expert",
+        "certs": [
+          {
+            "vendor": "Juniper",
+            "name": "JNCIE-ENT (Enterprise Expert)",
+            "code": "JNCIE-ENT",
+            "status": "active",
+            "url": "https://www.juniper.net/us/en/training/certification/tracks/enterprise-routing-switching/jncie-ent.html",
+            "cost": "$1,200–$1,400 |",
+            "duration": "8 hours |",
+            "rationale": "The ultimate enterprise routing and switching credential. Candidates must design, configure, and troubleshoot complex multi-protocol enterprise networks under lab conditions with minimal documentation."
+          },
+          {
+            "vendor": "Juniper",
+            "name": "JNCIE-SP (Service Provider Expert)",
+            "code": "JNCIE-SP",
+            "status": "active",
+            "url": "https://www.juniper.net/us/en/training/certification/tracks/service-provider-routing-switching/jncie-sp.html",
+            "cost": "$1,200–$1,400 |",
+            "duration": "8 hours |",
+            "rationale": "The carrier-grade credential. Labs simulate service provider network engineering challenges at massive scale."
+          },
+          {
+            "vendor": "Juniper",
+            "name": "JNCIE-DC (Data Center Expert)",
+            "code": "JNCIE-DC",
+            "status": "active",
+            "cost": "$1,200–$1,400 |",
+            "duration": "8 hours |",
+            "rationale": "Validates expertise in designing and troubleshooting large, complex data center fabric deployments with automation integration."
+          },
+          {
+            "vendor": "Juniper",
+            "name": "JNCIE-SEC (Security Expert)",
+            "code": "JNCIE-SEC",
+            "status": "active",
+            "cost": "$1,200–$1,400 |",
+            "duration": "8 hours |",
+            "rationale": "For chief security architects designing enterprise threat prevention infrastructure."
+          },
+          {
+            "vendor": "Juniper",
+            "name": "Entry to Expert Trajectory",
+            "code": "JNCIA-Junos",
+            "status": "active"
+          }
+        ]
+      }
+    ],
+    "blurb": "Juniper Networks, now part of Hewlett Packard Enterprise (HPE) as of July 2025, operates the **Juniper Networks Certification Program (JNCP)** — a four-tiered, specialized ecosystem spanning enterprise routing, service provider networks, security, data center, cloud, wireless, and AI-driven operations. The program offers **23+ active certifications** organized into six primary tracks, with free entry-level pathways via Juniper Open Learning (JOL), discounted exam vouchers, and Day One Books (free PDF documentation). Salaries range from **$65K–$90K** at associate level to **$145K–$200K** at exp..."
+  },
+  "hashicorp-ecosystem": {
+    "id": "hashicorp-ecosystem",
+    "name": "HashiCorp Ecosystem Post-IBM Acquisition (2026)",
+    "vendorKey": "HashiCorp",
+    "sourceFile": "D16_HashiCorp_Ecosystem.md",
+    "totalCerts": 5,
+    "levels": [
+      {
+        "level": "Entry",
+        "certs": []
+      },
+      {
+        "level": "Associate",
+        "certs": [
+          {
+            "vendor": "HashiCorp",
+            "name": "Terraform Associate (003)",
+            "status": "active"
+          },
+          {
+            "vendor": "HashiCorp",
+            "name": "Vault Associate (003)",
+            "status": "active",
+            "url": "https://developer.hashicorp.com/certifications/security-automation",
+            "topics": [
+              "Vault architecture (components, seal, unseal, HA)",
+              "Authentication methods (AppRole, JWT, LDAP, Kubernetes, OIDC)",
+              "Authorization policies (HCL policy syntax, least privilege)",
+              "Static and dynamic secrets (SSH, database, PKI)",
+              "Transit encryption",
+              "Secrets lifecycle (rotation, expiration)"
+            ]
+          },
+          {
+            "vendor": "HashiCorp",
+            "name": "Consul Associate (003)",
+            "status": "active",
+            "url": "https://developer.hashicorp.com/consul/tutorials/certification-003/associate-study-003",
+            "topics": [
+              "Service discovery and health checks",
+              "KV store and catalog",
+              "Service mesh networking (Envoy, sidecar proxies)",
+              "ACL policies and security",
+              "Kubernetes integration (registering K8s services in Consul)",
+              "DNS interface",
+              "Datacenter federation",
+              "Agent and node management"
+            ]
+          }
+        ]
+      },
+      {
+        "level": "Professional",
+        "certs": [
+          {
+            "vendor": "HashiCorp",
+            "name": "Terraform Authoring & Operations Professional",
+            "status": "active"
+          },
+          {
+            "vendor": "HashiCorp",
+            "name": "Vault Operations Professional",
+            "status": "active",
+            "url": "https://www.hashicorp.com/en/blog/hashicorp-s-new-vault-operations-pro-certification-is-lab-based"
+          }
+        ]
+      },
+      {
+        "level": "Expert",
+        "certs": []
+      }
+    ],
+    "blurb": "IBM completed its acquisition of HashiCorp on February 27, 2025, for $6.4 billion. As of April 2026, the HashiCorp ecosystem remains core to infrastructure automation across enterprise hybrid cloud and Kubernetes environments. Three products carry formal certifications: **Terraform, Vault, and Consul**. All others (Boundary, Nomad, Packer, Waypoint, Vagrant) remain community-supported with no formal cert track."
+  },
+  "paloalto-networks-ecosystem": {
+    "id": "paloalto-networks-ecosystem",
+    "name": "Palo Alto Networks Ecosystem",
+    "vendorKey": "Palo Alto Networks",
+    "sourceFile": "D17_PaloAlto_Networks_Ecosystem.md",
+    "totalCerts": 22,
+    "levels": [
+      {
+        "level": "Entry",
+        "certs": [
+          {
+            "vendor": "Palo Alto Networks",
+            "name": "PCCET (Cybersecurity Entry-level Technician)",
+            "code": "PCCET"
+          },
+          {
+            "vendor": "Palo Alto Networks",
+            "name": "Network Security Foundational",
+            "code": "NSF",
+            "cost": "None",
+            "duration": "$150",
+            "validity": "Active"
+          },
+          {
+            "vendor": "Palo Alto Networks",
+            "name": "Cybersecurity Practitioner",
+            "code": "CYBPREP",
+            "cost": "None",
+            "duration": "$150",
+            "validity": "Active"
+          },
+          {
+            "vendor": "Palo Alto Networks",
+            "name": "Cloud Security Foundational",
+            "code": "CSF",
+            "cost": "None",
+            "duration": "$150",
+            "validity": "Active"
+          }
+        ]
+      },
+      {
+        "level": "Associate",
+        "certs": [
+          {
+            "vendor": "Palo Alto Networks",
+            "name": "PCNSA (Network Security Administrator)",
+            "code": "PCNSA"
+          },
+          {
+            "vendor": "Palo Alto Networks",
+            "name": "PCNSE (Network Security Engineer)",
+            "code": "PCNSE"
+          },
+          {
+            "vendor": "Palo Alto Networks",
+            "name": "PCSFE (Strata Firewall Engineer)",
+            "code": "PCSFE"
+          },
+          {
+            "vendor": "Palo Alto Networks",
+            "name": "PCCSE (Cloud Security Engineer)",
+            "code": "PCCSE"
+          },
+          {
+            "vendor": "Palo Alto Networks",
+            "name": "PCSAE (Security Automation Engineer)",
+            "code": "PCSAE"
+          },
+          {
+            "vendor": "Palo Alto Networks",
+            "name": "PCDRA (Detection and Remediation Analyst)",
+            "code": "PCDRA"
+          },
+          {
+            "vendor": "Palo Alto Networks",
+            "name": "NGFW Engineer (replaces PCNSE)",
+            "code": "PCNSE",
+            "cost": "Recommended: 2-3 years IT security; 2+ years hands-on NGFW experience",
+            "duration": "$250",
+            "validity": "Active"
+          },
+          {
+            "vendor": "Palo Alto Networks",
+            "name": "XSIAM Analyst",
+            "code": "XSIAM-ANALYST",
+            "cost": "Recommended: 1-2 years SOC analyst experience",
+            "duration": "$250",
+            "validity": "Active"
+          },
+          {
+            "vendor": "Palo Alto Networks",
+            "name": "XSIAM Engineer",
+            "code": "XSIAM-ENG",
+            "cost": "Recommended: hands-on Cortex XSIAM deployment + operation",
+            "duration": "$250",
+            "validity": "Active"
+          },
+          {
+            "vendor": "Palo Alto Networks",
+            "name": "XDR Analyst",
+            "code": "XDR-ANALYST",
+            "cost": "Recommended: SOC/detection/incident response background",
+            "duration": "$250",
+            "validity": "Active"
+          },
+          {
+            "vendor": "Palo Alto Networks",
+            "name": "XDR Engineer",
+            "code": "XDR-ENG",
+            "cost": "Recommended: hands-on Cortex XDR configuration/deployment",
+            "duration": "$250",
+            "validity": "Active"
+          },
+          {
+            "vendor": "Palo Alto Networks",
+            "name": "XSOAR Engineer",
+            "code": "XSOAR-ENG",
+            "cost": "Recommended: automation/SOAR platform experience",
+            "duration": "$250",
+            "validity": "Active"
+          },
+          {
+            "vendor": "Palo Alto Networks",
+            "name": "Certification Restructure Complete",
+            "status": "active"
+          },
+          {
+            "vendor": "Palo Alto Networks",
+            "name": "XSIAM as Next-Gen SIEM",
+            "status": "active"
+          }
+        ]
+      },
+      {
+        "level": "Professional",
+        "certs": [
+          {
+            "vendor": "Palo Alto Networks",
+            "name": "Network Security Professional",
+            "code": "NETSG",
+            "cost": "Recommended: 2-3 years IT security; hands-on NGFW experience",
+            "duration": "$200",
+            "validity": "Active"
+          },
+          {
+            "vendor": "Palo Alto Networks",
+            "name": "Security Operations Professional",
+            "code": "SECOPS-PRO",
+            "cost": "Recommended: SOC analyst or IT support background",
+            "duration": "$200",
+            "validity": "Active"
+          },
+          {
+            "vendor": "Palo Alto Networks",
+            "name": "Cloud Security Professional",
+            "code": "CLDSP",
+            "cost": "Recommended: 2-3 years cloud infrastructure or security",
+            "duration": "$200",
+            "validity": "Active"
+          }
+        ]
+      },
+      {
+        "level": "Expert",
+        "certs": [
+          {
+            "vendor": "Palo Alto Networks",
+            "name": "Network Security Architect",
+            "code": "NETSEC-ARCH",
+            "cost": "Required: 5+ years architecting Zero Trust; 2+ years NGFW hands-on",
+            "duration": "$300 (estimated)",
+            "validity": "Active"
+          }
+        ]
+      }
+    ],
+    "blurb": "Palo Alto Networks is a leading cloud-native cybersecurity company offering integrated security platforms across network, cloud, and security operations. The ecosystem has undergone a major restructuring in 2025–2026, shifting from legacy exam-based certifications to a role-based framework aligned with real IT job functions."
+  },
+  "crowdstrike-ecosystem": {
+    "id": "crowdstrike-ecosystem",
+    "name": "CrowdStrike Ecosystem",
+    "vendorKey": "CrowdStrike",
+    "sourceFile": "D18_CrowdStrike_Ecosystem.md",
+    "totalCerts": 6,
+    "levels": [
+      {
+        "level": "Entry",
+        "certs": []
+      },
+      {
+        "level": "Associate",
+        "certs": [
+          {
+            "vendor": "CrowdStrike",
+            "name": "Certification Exam Logistics",
+            "status": "active",
+            "url": "https://www.crowdstrike.com/en-us/events/fal-con/las-vegas/certification-program/"
+          },
+          {
+            "vendor": "CrowdStrike",
+            "name": "Falcon Certification Saturation",
+            "status": "active"
+          },
+          {
+            "vendor": "CrowdStrike",
+            "name": "Certification Program"
+          },
+          {
+            "vendor": "CrowdStrike",
+            "name": "Identity as a Primary Attack Surface",
+            "status": "active"
+          }
+        ]
+      },
+      {
+        "level": "Professional",
+        "certs": [
+          {
+            "vendor": "CrowdStrike",
+            "name": "From DevOps / SRE to Falcon Cloud Security Specialist",
+            "status": "active"
+          },
+          {
+            "vendor": "CrowdStrike",
+            "name": "From Identity/Directory Admin to Falcon Identity Specialist (CCIS)",
+            "status": "active"
+          }
+        ]
+      },
+      {
+        "level": "Expert",
+        "certs": []
+      }
+    ]
+  },
+  "atlassian-ecosystem": {
+    "id": "atlassian-ecosystem",
+    "name": "Atlassian Ecosystem — Complete Deep Dive",
+    "vendorKey": "Atlassian",
+    "sourceFile": "D19_Atlassian_Ecosystem.md",
+    "totalCerts": 8,
+    "levels": [
+      {
+        "level": "Entry",
+        "certs": []
+      },
+      {
+        "level": "Associate",
+        "certs": [
+          {
+            "vendor": "Atlassian",
+            "name": "Associate (ACA)",
+            "cost": "2 years",
+            "duration": "25 questions",
+            "questions": "$100"
+          },
+          {
+            "vendor": "Atlassian",
+            "name": "ACP-520: Atlassian Cloud Organization Admin",
+            "status": "active",
+            "url": "https://community.atlassian.com/learning/certifications/atlassian-cloud-organization-admin",
+            "rationale": "Source: [Atlassian Cloud Organization Admin Certification](https://community.atlassian.com/learning/certifications/atlassian-cloud-organization-admin), [ACP-520 Preparation Guide](https://community.atlassian.com/forums/Training-Certification-articles/How-to-prepare-for-ACP-520-Atlassian-Cloud-Organization-Admin/ba-p/2441713)"
+          },
+          {
+            "vendor": "Atlassian",
+            "name": "Associate Jira Admin"
+          },
+          {
+            "vendor": "Atlassian",
+            "name": "For ACP Exam Success",
+            "status": "active"
+          }
+        ]
+      },
+      {
+        "level": "Professional",
+        "certs": [
+          {
+            "vendor": "Atlassian",
+            "name": "Professional (ACP)",
+            "cost": "2 years",
+            "duration": "60–80 questions",
+            "questions": "$249"
+          },
+          {
+            "vendor": "Atlassian",
+            "name": "Agile DevOps Specialist",
+            "status": "active"
+          },
+          {
+            "vendor": "Atlassian",
+            "name": "ITSM Specialist",
+            "status": "active"
+          }
+        ]
+      },
+      {
+        "level": "Expert",
+        "certs": [
+          {
+            "vendor": "Atlassian",
+            "name": "Administration Expert",
+            "status": "active",
+            "rationale": "Source: [Atlassian Certified Designations](https://university.atlassian.com/student/page/844004-atlassian-certified-designations)"
+          }
+        ]
+      }
+    ],
+    "blurb": "Atlassian is a $23B+ enterprise software company (market cap) founded in 2002, headquartered in Sydney and San Francisco, specializing in collaboration and project management tools. The company operates primarily via a **cloud-first strategy** with legacy Data Center support for on-premises deployments. Atlassian products span project management (Jira), documentation (Confluence), source control (Bitbucket), incident response (Opsgenie), developer platforms (Compass, Rovo AI), and integrated video collaboration (Loom — acquired 2023)."
+  },
+  "mulesoft-ecosystem": {
+    "id": "mulesoft-ecosystem",
+    "name": "MuleSoft Anypoint Platform Ecosystem",
+    "vendorKey": "MuleSoft",
+    "sourceFile": "D20_MuleSoft_Ecosystem.md",
+    "totalCerts": 15,
+    "levels": [
+      {
+        "level": "Entry",
+        "certs": []
+      },
+      {
+        "level": "Associate",
+        "certs": [
+          {
+            "vendor": "MuleSoft",
+            "name": "Level 1: Developer & Associate",
+            "status": "active"
+          },
+          {
+            "vendor": "MuleSoft",
+            "name": "Certified Developer",
+            "cost": "None (recommended: online fundamentals)",
+            "duration": "USD 150"
+          },
+          {
+            "vendor": "MuleSoft",
+            "name": "Integration Associate",
+            "cost": "None",
+            "duration": "USD 100"
+          },
+          {
+            "vendor": "MuleSoft",
+            "name": "API Designer Associate",
+            "cost": "None",
+            "duration": "USD 100"
+          },
+          {
+            "vendor": "MuleSoft",
+            "name": "Certified Mule Developer (IPA / RPA)",
+            "cost": "Basic Mule knowledge",
+            "duration": "USD 150"
+          },
+          {
+            "vendor": "MuleSoft",
+            "name": "API-led architecture zeitgeist"
+          }
+        ]
+      },
+      {
+        "level": "Professional",
+        "certs": [
+          {
+            "vendor": "MuleSoft",
+            "name": "Anypoint Platform Operations Specialist",
+            "cost": "Operational experience with Anypoint",
+            "duration": "USD 100"
+          },
+          {
+            "vendor": "MuleSoft",
+            "name": "Data Cloud Integration Specialist"
+          },
+          {
+            "vendor": "MuleSoft",
+            "name": "Agentforce Integration Specialist"
+          },
+          {
+            "vendor": "MuleSoft",
+            "name": "Anypoint Governance Specialist"
+          }
+        ]
+      },
+      {
+        "level": "Expert",
+        "certs": [
+          {
+            "vendor": "MuleSoft",
+            "name": "Level 2: Developer & Architect",
+            "status": "active"
+          },
+          {
+            "vendor": "MuleSoft",
+            "name": "Integration Architect",
+            "cost": "Integration experience (not necessarily MuleSoft)",
+            "duration": "USD 200"
+          },
+          {
+            "vendor": "MuleSoft",
+            "name": "Platform Architect",
+            "cost": "2+ years Anypoint experience recommended",
+            "duration": "USD 200"
+          },
+          {
+            "vendor": "MuleSoft",
+            "name": "Integration Architect L1 Core",
+            "status": "active"
+          },
+          {
+            "vendor": "MuleSoft",
+            "name": "Platform Architect L1 Core",
+            "status": "active"
+          }
+        ]
+      }
+    ]
+  },
+  "fortinet-ecosystem": {
+    "id": "fortinet-ecosystem",
+    "name": "Fortinet Ecosystem — Network Security Platform & Career Transition",
+    "vendorKey": "Fortinet",
+    "sourceFile": "D21_Fortinet_Ecosystem.md",
+    "totalCerts": 21,
+    "levels": [
+      {
+        "level": "Entry",
+        "certs": []
+      },
+      {
+        "level": "Associate",
+        "certs": [
+          {
+            "vendor": "Fortinet",
+            "name": "NSE 1",
+            "code": "NSE 1",
+            "status": "active"
+          },
+          {
+            "vendor": "Fortinet",
+            "name": "NSE 2",
+            "code": "NSE 2",
+            "status": "active"
+          },
+          {
+            "vendor": "Fortinet",
+            "name": "NSE 3",
+            "code": "NSE 3",
+            "status": "active"
+          },
+          {
+            "vendor": "Fortinet",
+            "name": "NSE 4",
+            "code": "NSE 4",
+            "status": "active"
+          },
+          {
+            "vendor": "Fortinet",
+            "name": "NSE 5",
+            "code": "NSE 5",
+            "status": "active",
+            "rationale": "Fortinet has structured NSE 5 to offer four parallel specialty tracks, allowing practitioners to specialize early while maintaining a clear ladder:"
+          },
+          {
+            "vendor": "Fortinet",
+            "name": "NSE 6",
+            "code": "NSE 6",
+            "status": "active",
+            "rationale": "NSE 6 deepens expertise in narrow product specialties or advanced FortiGate modules. Candidates typically choose one or more NSE 6 tracks aligned with their target role:"
+          },
+          {
+            "vendor": "Fortinet",
+            "name": "NSE 7",
+            "code": "NSE 7",
+            "status": "active",
+            "rationale": "NSE 7 targets senior engineers and architects designing complex, multi-product environments. Candidates specialize in one or more of the following tracks:"
+          },
+          {
+            "vendor": "Fortinet",
+            "name": "NSE 8",
+            "code": "NSE 8",
+            "status": "active",
+            "rationale": "NSE 8 is the highest recognition and remains a laboratory-based practicum, not a traditional exam. It is rare and highly prestigious."
+          }
+        ]
+      },
+      {
+        "level": "Professional",
+        "certs": [
+          {
+            "vendor": "Fortinet",
+            "name": "FortiGate Advanced Firewall Specialist (NSE6_FWF)",
+            "status": "active"
+          },
+          {
+            "vendor": "Fortinet",
+            "name": "FortiManager & FortiAnalyzer Specialist (NSE6_FAZ)",
+            "status": "active"
+          },
+          {
+            "vendor": "Fortinet",
+            "name": "SD-WAN Specialist (NSE6_SDW)",
+            "status": "active"
+          },
+          {
+            "vendor": "Fortinet",
+            "name": "FortiSASE Specialist (NSE6_SSE)",
+            "status": "active"
+          },
+          {
+            "vendor": "Fortinet",
+            "name": "FortiCNP / Lacework Specialist (NSE6_CNP)",
+            "status": "active"
+          },
+          {
+            "vendor": "Fortinet",
+            "name": "FortiSIEM Specialist (NSE6_SIEM)",
+            "status": "active"
+          },
+          {
+            "vendor": "Fortinet",
+            "name": "FortiSOAR Specialist (NSE6_SOAR)",
+            "status": "active"
+          },
+          {
+            "vendor": "Fortinet",
+            "name": "OT / ICS Security Specialist (NSE6_OTS)",
+            "status": "active"
+          },
+          {
+            "vendor": "Fortinet",
+            "name": "Wireless & Access Point Specialist (NSE6_APL)",
+            "status": "active"
+          }
+        ]
+      },
+      {
+        "level": "Expert",
+        "certs": [
+          {
+            "vendor": "Fortinet",
+            "name": "Enterprise Firewall Architect (NSE7_EFW)",
+            "status": "active"
+          },
+          {
+            "vendor": "Fortinet",
+            "name": "SD-WAN Architect (NSE7_SDW)",
+            "status": "active"
+          },
+          {
+            "vendor": "Fortinet",
+            "name": "Public Cloud Security Architect (NSE7_PCS)",
+            "status": "active"
+          },
+          {
+            "vendor": "Fortinet",
+            "name": "OT/ICS Security Architect (NSE7_OTS)",
+            "status": "active"
+          }
+        ]
+      }
+    ],
+    "blurb": "Fortinet is the global leader in network security appliances by unit market share (over 500,000 customers worldwide, 55% unit share in firewalls), and the #1 most-deployed next-generation firewall platform. After a major certification rebranding cycle (FCF/FCA/FCSS credentials, 2023–2025), Fortinet is **reverting to the NSE 1–8 numbering ladder effective July 15, 2026**, returning to a clearer, historically-proven progression model. The company recently acquired **Lacework** (August 2024) to expand cloud-native security, and is aggressively integrating **FortiAI** (generative AI for security a..."
+  },
+  "checkpoint-ecosystem": {
+    "id": "checkpoint-ecosystem",
+    "name": "Check Point Ecosystem",
+    "vendorKey": "Check Point",
+    "sourceFile": "D22_CheckPoint_Ecosystem.md",
+    "totalCerts": 10,
+    "levels": [
+      {
+        "level": "Entry",
+        "certs": [
+          {
+            "vendor": "Check Point",
+            "name": "Foundation Tier",
+            "status": "active",
+            "url": "https://training-certifications.checkpoint.com/"
+          }
+        ]
+      },
+      {
+        "level": "Associate",
+        "certs": [
+          {
+            "vendor": "Check Point",
+            "name": "CCSA (Certified Security Administrator)",
+            "status": "retiring"
+          }
+        ]
+      },
+      {
+        "level": "Professional",
+        "certs": [
+          {
+            "vendor": "Check Point",
+            "name": "CCAS (Certified Automation Specialist)",
+            "status": "active"
+          },
+          {
+            "vendor": "Check Point",
+            "name": "CCCS (Certified Cloud Specialist)",
+            "status": "active"
+          },
+          {
+            "vendor": "Check Point",
+            "name": "CCES (Harmony Endpoint Specialist)",
+            "status": "active"
+          }
+        ]
+      },
+      {
+        "level": "Expert",
+        "certs": [
+          {
+            "vendor": "Check Point",
+            "name": "CCSE (Certified Security Expert)",
+            "status": "active"
+          },
+          {
+            "vendor": "Check Point",
+            "name": "Specialist Accreditations (Path to Master)",
+            "status": "active",
+            "url": "https://www.experteach.eu/com/certification/check-point/security-master-certifications/ccsm/ccte.html"
+          },
+          {
+            "vendor": "Check Point",
+            "name": "CCTE (Certified Troubleshooting Expert)",
+            "status": "active"
+          },
+          {
+            "vendor": "Check Point",
+            "name": "Master Tier",
+            "status": "active",
+            "url": "https://www.experteach.eu/com/certification-ccsm-ccsmelite-certifications/"
+          },
+          {
+            "vendor": "Check Point",
+            "name": "CCSM (Certified Security Master)",
+            "status": "active"
+          }
+        ]
+      }
+    ],
+    "blurb": "Check Point Software Technologies is a legacy network security pioneer founded in 1993, best known for its Firewall-1 and flagship **Quantum** next-generation firewall (NGFW) platform. The company occupies a leading position in the NGFW market alongside Palo Alto Networks and Fortinet, and has expanded into cloud security (CloudGuard), endpoint/workspace protection (Harmony), and hyperscale infrastructure (Maestro, Lightspeed)."
+  },
+  "f5-ecosystem": {
+    "id": "f5-ecosystem",
+    "name": "F5 Ecosystem — Application Delivery & Security Leadership",
+    "vendorKey": "F5",
+    "sourceFile": "D23_F5_Ecosystem.md",
+    "totalCerts": 6,
+    "levels": [
+      {
+        "level": "Entry",
+        "certs": [
+          {
+            "vendor": "F5",
+            "name": "Foundation: Certified Associate",
+            "status": "retired",
+            "url": "https://support.education.f5.com/hc/en-us/articles/35127397947291-Updates-to-the-F5-Certified-Administrator-BIG-IP-Certification-F5-CA-BIG-IP",
+            "rationale": "Effective May 1, 2025, F5 retired the traditional two-exam pathway (101 + 201) and replaced it with five modular 30-minute exams:"
+          }
+        ]
+      },
+      {
+        "level": "Associate",
+        "certs": [
+          {
+            "vendor": "F5",
+            "name": "Impact on Certifications & Careers",
+            "status": "active"
+          }
+        ]
+      },
+      {
+        "level": "Professional",
+        "certs": [
+          {
+            "vendor": "F5",
+            "name": "LTM (Local Traffic Manager) Specialist",
+            "status": "active",
+            "rationale": "Covers load balancing, virtual servers, pool management, SSL/TLS offloading, persistence, content switching."
+          },
+          {
+            "vendor": "F5",
+            "name": "DNS Specialist (formerly GTM",
+            "status": "active",
+            "rationale": "Covers geographic load balancing, DNS policies, failover across data centers, traffic routing."
+          },
+          {
+            "vendor": "F5",
+            "name": "APM (Access Policy Manager) Specialist",
+            "status": "active",
+            "rationale": "Covers identity management, single sign-on (SSO), multi-factor authentication (MFA), VPN, network access control."
+          },
+          {
+            "vendor": "F5",
+            "name": "Advanced WAF Specialist (formerly ASM",
+            "status": "active",
+            "rationale": "Covers Web Application Firewall protection, SQL injection prevention, XSS, CSRF, API security, policy management."
+          }
+        ]
+      },
+      {
+        "level": "Expert",
+        "certs": []
+      }
+    ],
+    "blurb": "F5 is a USD 50+ billion enterprise software and hardware company specializing in application delivery controllers (ADCs), load balancing, web application firewalls (WAFs), and managed security services. The F5 ecosystem spans:"
+  },
+  "netapp-ecosystem": {
+    "id": "netapp-ecosystem",
+    "name": "NetApp Ecosystem Deep Dive",
+    "vendorKey": "NetApp",
+    "sourceFile": "D24_NetApp_Ecosystem.md",
+    "totalCerts": 7,
+    "levels": [
+      {
+        "level": "Entry",
+        "certs": [
+          {
+            "vendor": "NetApp",
+            "name": "NCIE-DP: NetApp Certified Implementation Engineer – Data Protection",
+            "status": "active",
+            "url": "https://www.netapp.com/support-and-training/netapp-learning-services/certifications/"
+          },
+          {
+            "vendor": "NetApp",
+            "name": "NCIE-SAN: NetApp Certified Implementation Engineer – SAN",
+            "status": "active",
+            "url": "https://www.netapp.com/support-and-training/netapp-learning-services/certifications/"
+          },
+          {
+            "vendor": "NetApp",
+            "name": "NCIE-NAS: NetApp Certified Implementation Engineer – NAS",
+            "status": "active",
+            "url": "https://www.netapp.com/support-and-training/netapp-learning-services/certifications/"
+          },
+          {
+            "vendor": "NetApp",
+            "name": "NCSE: NetApp Certified Sales Engineer",
+            "status": "active",
+            "url": "https://www.netapp.com/support-and-training/netapp-learning-services/certifications/"
+          }
+        ]
+      },
+      {
+        "level": "Associate",
+        "certs": [
+          {
+            "vendor": "NetApp",
+            "name": "NCDA: NetApp Certified Data Administrator, ONTAP",
+            "status": "active",
+            "url": "https://www.netapp.com/support-and-training/netapp-learning-services/certifications/"
+          },
+          {
+            "vendor": "NetApp",
+            "name": "NCSA: NetApp Certified Storage Associate",
+            "status": "active",
+            "url": "https://www.netapp.com/support-and-training/netapp-learning-services/certifications/"
+          }
+        ]
+      },
+      {
+        "level": "Professional",
+        "certs": [
+          {
+            "vendor": "NetApp",
+            "name": "NCDS: NetApp Data Science Specialty",
+            "status": "active",
+            "url": "https://www.netapp.com/support-and-training/netapp-learning-services/"
+          }
+        ]
+      },
+      {
+        "level": "Expert",
+        "certs": []
+      }
+    ],
+    "blurb": "NetApp is a global leader in hybrid cloud and storage infrastructure, providing data management solutions spanning on-premises arrays, cloud services, and enterprise data platforms. Founded in 1992, NetApp powers data workloads from traditional SAN/NAS environments through modern cloud-native and AI infrastructure deployments."
+  },
+  "purestorage-ecosystem": {
+    "id": "purestorage-ecosystem",
+    "name": "Pure Storage (Everpure) Ecosystem — All-Flash Storage Leader",
+    "vendorKey": "Pure Storage",
+    "sourceFile": "D25_PureStorage_Ecosystem.md",
+    "totalCerts": 8,
+    "levels": [
+      {
+        "level": "Entry",
+        "certs": [
+          {
+            "vendor": "Pure Storage",
+            "name": "Entry Level: Everpure Certified Data Storage Associate (ECDSA / DSA)",
+            "status": "active",
+            "url": "https://employeeacademy.purestorage.com/student/page/2164498-certification-dsa",
+            "topics": [
+              "Target roles: Storage technicians, junior storage admins, support engineers",
+              "Renewal: Every 2 years",
+              "Cost: ~USD 500 course; exam ~USD 150"
+            ]
+          }
+        ]
+      },
+      {
+        "level": "Associate",
+        "certs": [
+          {
+            "vendor": "Pure Storage",
+            "name": "For Storage Professionals Considering Pure Specialization",
+            "status": "active"
+          }
+        ]
+      },
+      {
+        "level": "Professional",
+        "certs": [
+          {
+            "vendor": "Pure Storage",
+            "name": "Advanced / Specialist Tracks",
+            "status": "active"
+          },
+          {
+            "vendor": "Pure Storage",
+            "name": "Pure Certified Data Storage Consultant (PCDSC / CDSC)",
+            "status": "active",
+            "url": "https://purestorage-customersuccess.github.io/peak-web-dev/pdf/pure-certification-guide-v3-5-1-2025.pdf",
+            "topics": [
+              "Target roles: Solutions architects, sales engineers, consultants",
+              "Cost: Custom; often bundled with partner programs"
+            ]
+          },
+          {
+            "vendor": "Pure Storage",
+            "name": "Portworx / Container Storage Specialist (PCSS / CSS)",
+            "status": "active",
+            "topics": [
+              "Target roles: Container platform engineers, DevOps engineers",
+              "Cost: ~USD 800–1200 course"
+            ]
+          },
+          {
+            "vendor": "Pure Storage",
+            "name": "Data Protection Professional (DPP)",
+            "status": "active",
+            "url": "https://employeeacademy.purestorage.com/student/page/2164788-certification-fass",
+            "topics": [
+              "Target roles: Backup engineers, disaster recovery engineers"
+            ]
+          },
+          {
+            "vendor": "Pure Storage",
+            "name": "Everpure AI-Ready Infrastructure Specialist",
+            "status": "active",
+            "topics": [
+              "Target roles: AI infrastructure engineers, ML ops engineers",
+              "Cost: ~USD 1200–1500"
+            ]
+          }
+        ]
+      },
+      {
+        "level": "Expert",
+        "certs": [
+          {
+            "vendor": "Pure Storage",
+            "name": "Pure Certified Data Storage Expert (PCDSE / CDSE)",
+            "status": "active",
+            "topics": [
+              "Target roles: Senior storage engineers, infrastructure architects",
+              "Renewal: Every 2 years",
+              "Cost: ~USD 2000–2500; exam ~USD 250"
+            ]
+          }
+        ]
+      }
+    ],
+    "blurb": "**Pure Storage**, officially rebranded as **Everpure** in early 2024, stands at the apex of all-flash storage. With proprietary **DirectFlash Modules** (custom NAND eliminating commodity SSD constraints), a signature **Evergreen//Forever** continuous-upgrade subscription model, and partnerships with NVIDIA and Cisco for AI infrastructure, Pure delivers industry-leading reliability (6x better than COTS SSDs), density (2–3x better), and customer satisfaction (NPS 81 for 9 consecutive years)."
+  },
+  "veeam-ecosystem": {
+    "id": "veeam-ecosystem",
+    "name": "Veeam Ecosystem: Data Resilience Leadership (2026)",
+    "vendorKey": "Veeam",
+    "sourceFile": "D26_Veeam_Ecosystem.md",
+    "totalCerts": 9,
+    "levels": [
+      {
+        "level": "Entry",
+        "certs": [
+          {
+            "vendor": "Veeam",
+            "name": "Foundation Edition",
+            "status": "active"
+          }
+        ]
+      },
+      {
+        "level": "Associate",
+        "certs": [
+          {
+            "vendor": "Veeam",
+            "name": "VMCE (Veeam Certified Engineer)",
+            "status": "active",
+            "rationale": "Extended from original December 31, 2025 cutoff. Last exam booking deadline: March 23, 2026."
+          },
+          {
+            "vendor": "Veeam",
+            "name": "New Certifications Launching Q2 2026",
+            "status": "active"
+          },
+          {
+            "vendor": "Veeam",
+            "name": "Certification Comparison Matrix",
+            "status": "active"
+          },
+          {
+            "vendor": "Veeam",
+            "name": "Localization & Pricing",
+            "status": "active"
+          },
+          {
+            "vendor": "Veeam",
+            "name": "Certification as Customer Retention",
+            "status": "active",
+            "rationale": "The VMCE+ → VMCSE → VMCEA path creates a skill-building journey that locks in vendor loyalty. Veeam education and certification are now recognized as strategic moat."
+          }
+        ]
+      },
+      {
+        "level": "Professional",
+        "certs": []
+      },
+      {
+        "level": "Expert",
+        "certs": [
+          {
+            "vendor": "Veeam",
+            "name": "VMCA (Veeam Certified Architect)",
+            "status": "active",
+            "rationale": "The architect-level credential reached end-of-life, with no new exam registrations accepted after the cutoff date. Source: [VMCE & VMCA 2026 | Veeam Community Resource Hub](https://community.veeam.com/vmce-study-hall-134/vmce-vmca-2026-12455)"
+          },
+          {
+            "vendor": "Veeam",
+            "name": "VMCSE (Veeam Certified Security Expert)",
+            "status": "active",
+            "rationale": "Source: [VMCE & VMCA 2026 | Veeam Community Resource Hub](https://community.veeam.com/vmce-study-hall-134/vmce-vmca-2026-12455)"
+          },
+          {
+            "vendor": "Veeam",
+            "name": "VMCEA (Veeam Master Certified Engineer Architect)",
+            "status": "active",
+            "url": "https://community.veeam.com/vug-ireland-194/veeam-training-and-new-certifications-in-2026-13149",
+            "rationale": "Source: [Veeam training and new certifications in 2026 | Veeam Community Resource Hub](https://community.veeam.com/vug-ireland-194/veeam-training-and-new-certifications-in-2026-13149)"
+          }
+        ]
+      }
+    ],
+    "blurb": "Veeam Software is the global market leader in data protection and resilience, protecting 25+ million Microsoft 365 users and securing 10+ million virtual machines across 60,000+ customers worldwide. The company is entering a major certification restructuring in Q2 2026, retiring legacy VMCE and VMCA credentials in favor of VMCE+, VMCSE, and VMCEA — reflecting a strategic pivot toward security-hardened, cloud-native, and AI-integrated data resilience."
+  },
+  "nutanix-ecosystem": {
+    "id": "nutanix-ecosystem",
+    "name": ". Nutanix Ecosystem — The Mass Migration Destination",
+    "vendorKey": "Nutanix",
+    "sourceFile": "D27_Nutanix_Ecosystem.md",
+    "totalCerts": 5,
+    "levels": [
+      {
+        "level": "Entry",
+        "certs": []
+      },
+      {
+        "level": "Associate",
+        "certs": [
+          {
+            "vendor": "Nutanix",
+            "name": "Level 1: Nutanix Certified Associate (NCA)",
+            "status": "active",
+            "url": "https://www.nutanix.com/support-services/training-certification/certifications/certification-details-nutanix-certified-associate-v6-10",
+            "cost": "~$200",
+            "duration": "~60 minutes of study via free Nutanix University courses"
+          },
+          {
+            "vendor": "Nutanix",
+            "name": "Certification Demand",
+            "status": "active"
+          }
+        ]
+      },
+      {
+        "level": "Professional",
+        "certs": [
+          {
+            "vendor": "Nutanix",
+            "name": "Level 2: Nutanix Certified Professional (NCP)",
+            "status": "active",
+            "url": "https://flashgenius.net/blog-article/ultimate-guide-to-nutanix-certifications-2026-edition",
+            "cost": "$200 each |",
+            "duration": "2–4 weeks typical study time"
+          }
+        ]
+      },
+      {
+        "level": "Expert",
+        "certs": [
+          {
+            "vendor": "Nutanix",
+            "name": "Level 3: Nutanix Certified Master (NCM)",
+            "status": "active",
+            "cost": "$300",
+            "questions": "Practical exam in"
+          },
+          {
+            "vendor": "Nutanix",
+            "name": "Level 4: Nutanix Certified Expert (NCX)",
+            "status": "active",
+            "url": "https://www.skillsoft.com/blog/guide-to-nutanix-certifications",
+            "cost": "$400"
+          }
+        ]
+      }
+    ],
+    "blurb": "Between November 2023 and April 2026, **Broadcom's acquisition of VMware and subsequent pricing restructuring (100–1,250% cost increases) triggered the largest hypervisor migration wave in 15 years**. Nutanix became the primary destination for VMware refugees, growing from a strong alternative player to a **de facto second hypervisor standard** in enterprise infrastructure. The ecosystem is now mature, job-ready, and attracting significant talent investment."
+  },
+  "okta-ecosystem": {
+    "id": "okta-ecosystem",
+    "name": "Okta Ecosystem: Identity and Access Management Leader",
+    "vendorKey": "Okta",
+    "sourceFile": "D28_Okta_Ecosystem.md",
+    "totalCerts": 8,
+    "levels": [
+      {
+        "level": "Entry",
+        "certs": []
+      },
+      {
+        "level": "Associate",
+        "certs": [
+          {
+            "vendor": "Okta",
+            "name": "Certification Hierarchy",
+            "status": "active"
+          },
+          {
+            "vendor": "Okta",
+            "name": "Administrator (OCA)",
+            "code": "OCA",
+            "status": "active",
+            "url": "https://certification.okta.com/",
+            "validity": "2 years (extended to 3 years with Technical Architect)"
+          },
+          {
+            "vendor": "Okta",
+            "name": "Certified Developer (OCD)",
+            "status": "active",
+            "validity": "2 years (extended to 3 years with Technical Architect)"
+          },
+          {
+            "vendor": "Okta",
+            "name": "Consultant (OCC)",
+            "status": "active",
+            "url": "https://certification.okta.com/",
+            "validity": "2 years (extended to 3 years with Technical Architect)"
+          },
+          {
+            "vendor": "Okta",
+            "name": "Certification Maintenance",
+            "status": "active",
+            "rationale": "All Okta certifications expire 2–3 years after issuance and require retesting or continuing education to maintain. As of April 2026, Okta offers skill badges and continuing-education credits through the Okta Learning platform to extend certification validity without retaking the full exam."
+          },
+          {
+            "vendor": "Okta",
+            "name": "Certification Exams",
+            "status": "active",
+            "url": "https://certification.okta.com/",
+            "cost": "Typically $150–$250 per exam (varies by certification level)",
+            "validity": "2 years from pass date (3 years if also holding Technical Architect)"
+          }
+        ]
+      },
+      {
+        "level": "Professional",
+        "certs": [
+          {
+            "vendor": "Okta",
+            "name": "Professional (OCP)",
+            "code": "OCP",
+            "status": "active",
+            "url": "https://certification.okta.com/page/core-certification-exams",
+            "validity": "2 years from pass date (extended to 3 years if holder also earns Okta Certified Technical Architect)"
+          }
+        ]
+      },
+      {
+        "level": "Expert",
+        "certs": [
+          {
+            "vendor": "Okta",
+            "name": "Technical Architect (OCTA)",
+            "status": "active",
+            "url": "https://certification.okta.com/page/professional-performance-exam-study-guide",
+            "examGuideUrl": "https://certification.okta.com/page/professional-performance-exam-study-guide",
+            "validity": "3 years (also grants automatic 1-year extension to all other active Okta certifications)"
+          }
+        ]
+      }
+    ],
+    "blurb": "Okta is the defining enterprise identity and access management (IAM) platform for cloud-first organizations. Founded in 2009, Okta has grown to serve thousands of enterprises globally, with a comprehensive product suite spanning workforce identity (employee SSO, MFA, lifecycle management), customer identity (Auth0, acquired 2021 for $6.5B), privileged access management (PAM), identity governance, and AI-driven threat detection. The company announced its latest platform convergence in 2025, unifying Workforce Identity Cloud and Customer Identity Cloud under a single identity security fabric. Ca..."
+  },
+  "cyberark-ecosystem": {
+    "id": "cyberark-ecosystem",
+    "name": "CyberArk — PAM Market Leader & Identity Security Platform",
+    "vendorKey": "CyberArk",
+    "sourceFile": "D29_CyberArk_Ecosystem.md",
+    "totalCerts": 5,
+    "levels": [
+      {
+        "level": "Entry",
+        "certs": [
+          {
+            "vendor": "CyberArk",
+            "name": "Certified Trustee (Entry Level)",
+            "status": "active",
+            "url": "https://www.identityskills.com/blog/cyberark-certification-paths-in-2025/"
+          }
+        ]
+      },
+      {
+        "level": "Associate",
+        "certs": [
+          {
+            "vendor": "CyberArk",
+            "name": "Certified Defender (CDE)",
+            "status": "active",
+            "topics": [
+              "Core PAM architecture and deployment",
+              "Credential management and rotation",
+              "Session recording and audit",
+              "Policy enforcement and access controls",
+              "Windows domain integration"
+            ]
+          },
+          {
+            "vendor": "CyberArk",
+            "name": "Certified Sentry (CSE)",
+            "status": "active",
+            "url": "https://www.identityskills.com/blog/cyberark-certification-guide-which-level-is-right-for-you/",
+            "topics": [
+              "Large-scale and mission-critical environment management",
+              "Advanced policy configuration and tuning",
+              "Performance optimization and scalability",
+              "Integration with third-party security tools (SIEM, IAM)",
+              "Incident response and forensics within PAM"
+            ]
+          },
+          {
+            "vendor": "CyberArk",
+            "name": "Certified Guardian (CGE)",
+            "status": "active",
+            "url": "https://www.identityskills.com/blog/cyberark-certification-paths-in-2025/",
+            "topics": [
+              "Enterprise architecture and multi-domain design",
+              "Organizational privilege strategy and governance",
+              "Integration of PAM with identity platforms (Idaptive/Workforce Identity, machine identity)",
+              "Compliance and risk management frameworks (SOX, PCI-DSS, HIPAA, GDPR)",
+              "Zero Trust principles applied to privileged accounts"
+            ]
+          }
+        ]
+      },
+      {
+        "level": "Professional",
+        "certs": [
+          {
+            "vendor": "CyberArk",
+            "name": "Identity Security Specialist",
+            "status": "active",
+            "url": "https://www.cyberark.com/services-support/certification/",
+            "topics": [
+              "Integration of human identity, machine identity, and AI agent identity",
+              "Workforce Identity (post-Idaptive acquisition)",
+              "Machine identity via Venafi (certificate lifecycle, workload identity)",
+              "Threat detection and response (ITDR)",
+              "API security and secrets management (Conjur)"
+            ]
+          }
+        ]
+      },
+      {
+        "level": "Expert",
+        "certs": []
+      }
+    ],
+    "blurb": "CyberArk Software Ltd. is the market-leading **Privileged Access Management (PAM)** vendor, recognized as a Leader in the 2025 Gartner Magic Quadrant for PAM for the seventh consecutive year. On **February 11, 2026**, Palo Alto Networks completed a historic **$25 billion acquisition** of CyberArk, consolidating identity security as a core pillar of the combined platform. CyberArk's Identity Security Platform spans workforce identity, customer identity, endpoint privilege security, secrets management, and machine identity (via the October 2024 Venafi acquisition). The ecosystem is critical for..."
+  },
+  "snowflake-ecosystem": {
+    "id": "snowflake-ecosystem",
+    "name": "Snowflake Data Cloud Ecosystem",
+    "vendorKey": "Snowflake",
+    "sourceFile": "D30_Snowflake_Ecosystem.md",
+    "totalCerts": 7,
+    "levels": [
+      {
+        "level": "Entry",
+        "certs": []
+      },
+      {
+        "level": "Associate",
+        "certs": [
+          {
+            "vendor": "Snowflake",
+            "name": "Advanced: Data Engineer",
+            "status": "active",
+            "questions": "65 questions (multiple-choice, multiple-select); 115 minutes",
+            "passingScore": "750+ on a 0–1000 scale"
+          },
+          {
+            "vendor": "Snowflake",
+            "name": "Advanced: Data Scientist",
+            "status": "active",
+            "questions": "65 questions; 115 minutes",
+            "passingScore": "750+"
+          },
+          {
+            "vendor": "Snowflake",
+            "name": "Advanced: Data Analyst",
+            "status": "active"
+          },
+          {
+            "vendor": "Snowflake",
+            "name": "Advanced: Administrator",
+            "status": "active"
+          },
+          {
+            "vendor": "Snowflake",
+            "name": "Advanced: Security Engineer",
+            "status": "active",
+            "url": "https://learn.snowflake.com/en/certifications/"
+          }
+        ]
+      },
+      {
+        "level": "Professional",
+        "certs": [
+          {
+            "vendor": "Snowflake",
+            "name": "Specialty: Snowpark",
+            "status": "active",
+            "url": "https://learn.snowflake.com/en/certifications/snowpro-snowpark/",
+            "questions": "55 multiple-choice and multiple-select questions; 85 minutes; heavy code-based questions",
+            "passingScore": "750+"
+          }
+        ]
+      },
+      {
+        "level": "Expert",
+        "certs": [
+          {
+            "vendor": "Snowflake",
+            "name": "Advanced: Architect",
+            "status": "active",
+            "questions": "Similar to other Advanced exams"
+          }
+        ]
+      }
+    ],
+    "blurb": "Snowflake is a cloud-native **data warehouse and AI platform** that separates storage from compute, enabling organizations to manage, analyze, and monetize data across multiple cloud providers (AWS, Azure, GCP, and sovereign clouds). Founded in 2012 and publicly listed in 2020, Snowflake has emerged as a leading alternative to traditional data warehouses and more recent lakehouse platforms, with a strategic focus on **AI-native features, governance, and frictionless data sharing**."
+  },
+  "databricks-ecosystem": {
+    "id": "databricks-ecosystem",
+    "name": "Databricks: The Data + AI Lakehouse Platform Ecosystem",
+    "vendorKey": "Databricks",
+    "sourceFile": "D31_Databricks_Ecosystem.md",
+    "totalCerts": 6,
+    "levels": [
+      {
+        "level": "Entry",
+        "certs": []
+      },
+      {
+        "level": "Associate",
+        "certs": [
+          {
+            "vendor": "Databricks",
+            "name": "Data Engineer Associate",
+            "status": "active",
+            "url": "https://www.databricks.com/learn/certification/data-engineer-associate",
+            "questions": "Multiple choice, hands-on labs",
+            "topics": [
+              "Format: Multiple choice, hands-on labs",
+              "Updated: July 25, 2025 (new version emphasizes DLT, Unity Catalog, Delta Sharing, Lakehouse Federation, DAB, and scenario-based questions)",
+              "Official Link: [Databricks Certified Data Engineer Associate](https://www.databricks.com/learn/certification/data-engineer-associate)"
+            ]
+          },
+          {
+            "vendor": "Databricks",
+            "name": "Machine Learning Associate",
+            "status": "active",
+            "url": "https://www.databricks.com/learn/certification/machine-learning-associate",
+            "questions": "Multiple choice, hands-on labs",
+            "topics": [
+              "Format: Multiple choice, hands-on labs",
+              "Official Link: [Databricks Certified Machine Learning Associate](https://www.databricks.com/learn/certification/machine-learning-associate)",
+              "Salary Context: Average $98,000–$148,000 annually"
+            ]
+          },
+          {
+            "vendor": "Databricks",
+            "name": "Data Analyst Associate",
+            "status": "active",
+            "topics": [
+              "Official Link: Available through Databricks training portal"
+            ]
+          },
+          {
+            "vendor": "Databricks",
+            "name": "Generative AI Engineer Associate",
+            "status": "active",
+            "url": "https://www.databricks.com/learn/certification/generative-ai-engineer-associate",
+            "questions": "Multiple choice, hands-on labs",
+            "topics": [
+              "Format: Multiple choice, hands-on labs",
+              "Official Link: [Databricks Certified Generative AI Engineer Associate](https://www.databricks.com/learn/certification/generative-ai-engineer-associate)"
+            ]
+          }
+        ]
+      },
+      {
+        "level": "Professional",
+        "certs": [
+          {
+            "vendor": "Databricks",
+            "name": "Data Engineer Professional",
+            "status": "active",
+            "url": "https://www.databricks.com/learn/certification/data-engineer-professional",
+            "questions": "Multiple choice, scenario-based labs",
+            "topics": [
+              "Format: Multiple choice, scenario-based labs",
+              "Official Link: [Databricks Certified Data Engineer Professional](https://www.databricks.com/learn/certification/data-engineer-professional)"
+            ]
+          },
+          {
+            "vendor": "Databricks",
+            "name": "Machine Learning Professional",
+            "status": "active",
+            "url": "https://www.databricks.com/learn/certification/machine-learning-professional",
+            "questions": "Multiple choice, advanced labs",
+            "topics": [
+              "Format: Multiple choice, advanced labs",
+              "Official Link: [Databricks Certified Machine Learning Professional](https://www.databricks.com/learn/certification/machine-learning-professional)"
+            ]
+          }
+        ]
+      },
+      {
+        "level": "Expert",
+        "certs": []
+      }
+    ],
+    "blurb": "Databricks is a privately-held data intelligence company founded by the original creators of Apache Spark. The platform unifies data lakes and warehouses into a **lakehouse architecture**, combining the scale of data lakes with the performance and governance of warehouses. As of April 2026, Databricks has expanded aggressively into generative AI through the acquisition of MosaicML (now Mosaic AI) and Tabular (Apache Iceberg creators), positioning itself as the leading unified platform for enterprise data and AI workloads."
+  },
+  "splunk-ecosystem": {
+    "id": "splunk-ecosystem",
+    "name": "Splunk Ecosystem Deep Dive",
+    "vendorKey": "Splunk",
+    "sourceFile": "D32_Splunk_Ecosystem.md",
+    "totalCerts": 8,
+    "levels": [
+      {
+        "level": "Entry",
+        "certs": []
+      },
+      {
+        "level": "Associate",
+        "certs": [
+          {
+            "vendor": "Splunk",
+            "name": "Enterprise Certified Admin (SECA)",
+            "status": "active",
+            "url": "https://www.splunk.com/en_us/training/certification-track/splunk-enterprise-certified-admin.html"
+          },
+          {
+            "vendor": "Splunk",
+            "name": "Cloud Certified Admin",
+            "status": "active",
+            "url": "https://www.splunk.com/en_us/training/certification-track/splunk-cloud-certified-admin.html"
+          },
+          {
+            "vendor": "Splunk",
+            "name": "Cybersecurity Defense Analyst (SCCDA)",
+            "status": "active",
+            "url": "https://www.splunk.com/en_us/training/certification-track/splunk-certified-cybersecurity-defense-analyst.html"
+          },
+          {
+            "vendor": "Splunk",
+            "name": "Cybersecurity Defense Engineer (SCCDE)",
+            "status": "active",
+            "url": "https://www.splunk.com/en_us/training/certification-track/splunk-certified-cybersecurity-defense-engineer.html"
+          },
+          {
+            "vendor": "Splunk",
+            "name": "SOAR Certified Admin",
+            "status": "active",
+            "url": "https://www.splunk.com/en_us/training/certification-track/splunk-soar-certified-admin.html"
+          },
+          {
+            "vendor": "Splunk",
+            "name": "IT Service Intelligence Certified Admin (SITSICA)",
+            "status": "active",
+            "url": "https://www.splunk.com/en_us/training/certification-track/splunk-itsi-certified-admin.html"
+          },
+          {
+            "vendor": "Splunk",
+            "name": "Enterprise Security Certified Admin (SESCA)",
+            "status": "active",
+            "url": "https://www.splunk.com/en_us/training/certification-track/splunk-es-certified-admin.html"
+          }
+        ]
+      },
+      {
+        "level": "Professional",
+        "certs": [
+          {
+            "vendor": "Splunk",
+            "name": "SOAR Specialist",
+            "status": "active",
+            "url": "https://www.splunk.com/en_us/training/certification-track/splunk-soar-certified-admin.html",
+            "rationale": "9. Splunk SOAR Certified Admin\n   - Administers Splunk SOAR (formerly Phantom)\n   - Covers deployment, playbook authoring, integration configuration, RBAC\n   - [Splunk SOAR Certified Admin](https://www.splunk.com/en_us/training/certification-track/splunk-soar-certified-admin.html)"
+          }
+        ]
+      },
+      {
+        "level": "Expert",
+        "certs": []
+      }
+    ],
+    "blurb": "Splunk is an enterprise data platform for real-time visibility and insights across an organization's entire digital footprint—infrastructure, security, applications, and user experience. In March 2024, Cisco completed its acquisition of Splunk for USD 28 billion, the largest acquisition in Cisco's four-decade history. This integration positions Splunk at the center of Cisco's unified security and observability strategy, with emerging integrations into Cisco Hypershield, AI Defense, and next-generation intelligent automation."
+  },
+  "aruba-hpe-ecosystem": {
+    "id": "aruba-hpe-ecosystem",
+    "name": "Aruba / HPE Networking Ecosystem",
+    "vendorKey": "Aruba",
+    "sourceFile": "D33_Aruba_HPE_Ecosystem.md",
+    "totalCerts": 4,
+    "levels": [
+      {
+        "level": "Entry",
+        "certs": []
+      },
+      {
+        "level": "Associate",
+        "certs": [
+          {
+            "vendor": "Aruba",
+            "name": "Associate – Campus Access (ACA)",
+            "code": "HPE6-A85",
+            "status": "active"
+          }
+        ]
+      },
+      {
+        "level": "Professional",
+        "certs": [
+          {
+            "vendor": "Aruba",
+            "name": "Professional – Campus Access (ACP)",
+            "code": "HPE7-A01",
+            "status": "active"
+          },
+          {
+            "vendor": "Aruba",
+            "name": "SD-WAN Professional (ACSDP)",
+            "status": "active"
+          }
+        ]
+      },
+      {
+        "level": "Expert",
+        "certs": [
+          {
+            "vendor": "Aruba",
+            "name": "Mobility Expert (ACMX)",
+            "code": "HPE4-A38",
+            "status": "active"
+          }
+        ]
+      }
+    ]
+  },
+  "arista-ecosystem": {
+    "id": "arista-ecosystem",
+    "name": "Arista Networks: Hyperscaler Data Center & AI Networking Ecosystem",
+    "vendorKey": "Arista",
+    "sourceFile": "D34_Arista_Ecosystem.md",
+    "totalCerts": 1,
+    "levels": [
+      {
+        "level": "Entry",
+        "certs": []
+      },
+      {
+        "level": "Associate",
+        "certs": []
+      },
+      {
+        "level": "Professional",
+        "certs": [
+          {
+            "vendor": "Arista",
+            "name": "AI Spine Specialty",
+            "status": "active"
+          }
+        ]
+      },
+      {
+        "level": "Expert",
+        "certs": []
+      }
+    ],
+    "blurb": "Arista Networks is the dominant networking vendor for cloud-scale data centers and AI infrastructure. With ~$1 billion in revenue (2026) and dominant position with Microsoft Azure and Meta (together ~35% of revenue), Arista has engineered a **fundamentally different networking architecture** from traditional enterprise vendors like Cisco and Juniper."
+  },
+  "sailpoint-ecosystem": {
+    "id": "sailpoint-ecosystem",
+    "name": "SailPoint Identity Governance & Administration (IGA) Ecosystem",
+    "vendorKey": "SailPoint",
+    "sourceFile": "D35_SailPoint_Ecosystem.md",
+    "totalCerts": 6,
+    "levels": [
+      {
+        "level": "Entry",
+        "certs": []
+      },
+      {
+        "level": "Associate",
+        "certs": [
+          {
+            "vendor": "SailPoint",
+            "name": "Certified Identity Security Engineer",
+            "status": "active"
+          },
+          {
+            "vendor": "SailPoint",
+            "name": "Certified IdentityNow Engineer",
+            "status": "active"
+          },
+          {
+            "vendor": "SailPoint",
+            "name": "Certified IdentityNow Cloud Engineer",
+            "status": "active"
+          },
+          {
+            "vendor": "SailPoint",
+            "name": "Certified IdentityIQ Engineer",
+            "status": "active"
+          }
+        ]
+      },
+      {
+        "level": "Professional",
+        "certs": [
+          {
+            "vendor": "SailPoint",
+            "name": "IdentityIQ Implementation Professional",
+            "status": "active"
+          }
+        ]
+      },
+      {
+        "level": "Expert",
+        "certs": [
+          {
+            "vendor": "SailPoint",
+            "name": "IdentityIQ Architect",
+            "status": "active"
+          }
+        ]
+      }
+    ]
+  },
+  "cloudflare-ecosystem": {
+    "id": "cloudflare-ecosystem",
+    "name": "Cloudflare Ecosystem — Cdn, Edge Compute, and Sase Leader",
+    "vendorKey": "Cloudflare",
+    "sourceFile": "D36_Cloudflare_Ecosystem.md",
+    "totalCerts": 5,
+    "levels": [
+      {
+        "level": "Entry",
+        "certs": []
+      },
+      {
+        "level": "Associate",
+        "certs": [
+          {
+            "vendor": "Cloudflare",
+            "name": "Accredited Configuration Engineer (ACE)",
+            "status": "active",
+            "topics": [
+              "DNS configuration and zone setup",
+              "CDN caching policies and purge strategies",
+              "WAF rules, bot management tuning",
+              "Magic Transit, Tunnel, and access controls",
+              "Observability and analytics"
+            ]
+          },
+          {
+            "vendor": "Cloudflare",
+            "name": "Certified Workers Developer (CCWD)",
+            "status": "active",
+            "topics": [
+              "Workers runtime and JavaScript fundamentals",
+              "Durable Objects and state management",
+              "KV, R2, and D1 integration",
+              "Middleware and request/response patterns",
+              "Deployment via Wrangler CLI",
+              "Real-world serverless architectures"
+            ]
+          },
+          {
+            "vendor": "Cloudflare",
+            "name": "Accredited Sales Engineer (ASE)",
+            "status": "active",
+            "topics": [
+              "Technical product deep-dives (Workers, SASE, DDoS)",
+              "RFP response and competitive positioning",
+              "Customer success metrics and KPIs"
+            ]
+          }
+        ]
+      },
+      {
+        "level": "Professional",
+        "certs": [
+          {
+            "vendor": "Cloudflare",
+            "name": "Accredited Sales Professional (ASP)",
+            "status": "active",
+            "url": "https://innovatecybersecurity.com/cybersecurity-education/cybersecurity-product-training-and-certification/cloudflare-training-and-certification/",
+            "topics": [
+              "Cloudflare value proposition and market positioning",
+              "Core products (CDN, DDoS, WAF)",
+              "Customer use cases and ROI messaging",
+              "Sales cycle and deal progression"
+            ]
+          }
+        ]
+      },
+      {
+        "level": "Expert",
+        "certs": [
+          {
+            "vendor": "Cloudflare",
+            "name": "Accredited Services Architect (ASA)",
+            "status": "active",
+            "topics": [
+              "Cloudflare cybersecurity management",
+              "Performance optimization strategies",
+              "Migration and onboarding services",
+              "Architecture design best practices"
+            ]
+          }
+        ]
+      }
+    ],
+    "blurb": "Cloudflare operates the world's largest and most performant anycast network, spanning 310+ edge cities with 11,000+ network peering relationships. As of April 2026, the platform bridges three strategic domains: **content delivery and web performance** (CDN, DNS, DDoS), **edge compute and serverless** (Workers, Pages, D1, R2, KV), and **unified security and access** (Cloudflare One SASE, Access, Gateway, Email Security post-Area 1)."
+  },
+  "sentinelone-ecosystem": {
+    "id": "sentinelone-ecosystem",
+    "name": "SentinelOne Ecosystem — Xdr Competitor to CrowdStrike",
+    "vendorKey": "SentinelOne",
+    "sourceFile": "D37_SentinelOne_Ecosystem.md",
+    "totalCerts": 1,
+    "levels": [
+      {
+        "level": "Entry",
+        "certs": []
+      },
+      {
+        "level": "Associate",
+        "certs": []
+      },
+      {
+        "level": "Professional",
+        "certs": [
+          {
+            "vendor": "SentinelOne",
+            "name": "EDR Specialist",
+            "status": "active"
+          }
+        ]
+      },
+      {
+        "level": "Expert",
+        "certs": []
+      }
+    ],
+    "blurb": "SentinelOne is an autonomous AI-powered cybersecurity platform providing unified prevention, detection, and response across endpoints, cloud workloads, identity systems, and networks. The **Singularity Platform** is the company's flagship offering, built around a lightweight, intelligent agent that operates independently without requiring cloud connectivity, directly competing with CrowdStrike's Falcon in the endpoint protection and XDR space. Since the July 2024 CrowdStrike outage, SentinelOne has gained significant market share. As of 2026, the company is advancing into autonomous security o..."
+  },
+  "zscaler-ecosystem": {
+    "id": "zscaler-ecosystem",
+    "name": "Zscaler Ecosystem",
+    "vendorKey": "Zscaler",
+    "sourceFile": "D38_Zscaler_Ecosystem.md",
+    "totalCerts": 7,
+    "levels": [
+      {
+        "level": "Entry",
+        "certs": []
+      },
+      {
+        "level": "Associate",
+        "certs": [
+          {
+            "vendor": "Zscaler",
+            "name": "Zero Trust Cyber Associate (ZTCA)",
+            "status": "active"
+          }
+        ]
+      },
+      {
+        "level": "Professional",
+        "certs": [
+          {
+            "vendor": "Zscaler",
+            "name": "ZIA Specialist",
+            "status": "active"
+          },
+          {
+            "vendor": "Zscaler",
+            "name": "ZPA Specialist",
+            "status": "active"
+          },
+          {
+            "vendor": "Zscaler",
+            "name": "ZDX Specialist",
+            "status": "active"
+          },
+          {
+            "vendor": "Zscaler",
+            "name": "ITDR Specialist (emerging 2025–2026)",
+            "status": "active",
+            "url": "https://partneracademy.zscaler.com/page/certification-exams"
+          }
+        ]
+      },
+      {
+        "level": "Expert",
+        "certs": [
+          {
+            "vendor": "Zscaler",
+            "name": "Advanced / Architect Level",
+            "status": "active"
+          },
+          {
+            "vendor": "Zscaler",
+            "name": "Digital Transformation Architect (ZDTE)",
+            "status": "active"
+          }
+        ]
+      }
+    ],
+    "blurb": "Zscaler is the market-leading Security Service Edge (SSE) and SASE (Secure Access Service Edge) platform provider. The company delivers a unified zero-trust cloud security architecture spanning secure internet access (ZIA), zero-trust private network access (ZPA), digital experience monitoring (ZDX), and emerging identity threat detection (ITDR). With 30+ regional offices, 160 data centre nodes globally, and presence in over 185 countries, Zscaler serves enterprises ranging from mid-market to Fortune 500 across banking, healthcare, manufacturing, and tech sectors."
+  },
+  "d39-akamai-ecosystem": {
+    "id": "d39-akamai-ecosystem",
+    "name": "D39 Akamai Ecosystem",
+    "vendorKey": "Akamai",
+    "sourceFile": "D39_Akamai_Ecosystem.md",
+    "totalCerts": 6,
+    "levels": [
+      {
+        "level": "Entry",
+        "certs": []
+      },
+      {
+        "level": "Associate",
+        "certs": [
+          {
+            "vendor": "Akamai",
+            "name": "Guardicore Certified Segmentation Administrator & Engineer",
+            "status": "active",
+            "rationale": "Post-acquisition (September 2021), Guardicore-specific credentials were introduced:"
+          },
+          {
+            "vendor": "Akamai",
+            "name": "Guardicore Certified Segmentation Administrator (GCSA)",
+            "status": "active"
+          },
+          {
+            "vendor": "Akamai",
+            "name": "Guardicore Certified Segmentation Engineer (GCSE)",
+            "status": "active",
+            "rationale": "These certifications validate microsegmentation platform expertise and zero-trust network design."
+          }
+        ]
+      },
+      {
+        "level": "Professional",
+        "certs": [
+          {
+            "vendor": "Akamai",
+            "name": "Network Engineering Professional Certificate",
+            "status": "active"
+          },
+          {
+            "vendor": "Akamai",
+            "name": "Customer Consulting and Support Professional Certificate",
+            "status": "active"
+          }
+        ]
+      },
+      {
+        "level": "Expert",
+        "certs": [
+          {
+            "vendor": "Akamai",
+            "name": "Partner Solutions Architect (Multiple Specializations)",
+            "status": "active",
+            "rationale": "Akamai offers specialization-specific Solutions Architect certifications, each awarded upon completion of product-specific training courses:"
+          }
+        ]
+      }
+    ],
+    "blurb": "Akamai Technologies operates as a foundational layer of global internet infrastructure, serving as a legacy CDN pioneer with 365,000+ edge servers embedded directly inside ISP networks across 135 countries. Over the past five years, the company has executed a high-velocity acquisition strategy to expand beyond content delivery into security, network segmentation, identity management, and distributed cloud compute. As of 2026, Akamai now offers a unified Intelligent Edge Platform spanning:"
+  }
+}

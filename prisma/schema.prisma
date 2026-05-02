@@ -1,0 +1,95 @@
+generator client {
+  provider      = "prisma-client-js"
+  binaryTargets = ["native", "linux-musl-openssl-3.0.x"]
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model Like {
+  id        String   @id @default(cuid())
+  target    String
+  ipHash    String
+  createdAt DateTime @default(now())
+
+  @@unique([target, ipHash])
+  @@index([target])
+}
+
+model Comment {
+  id        String   @id @default(cuid())
+  target    String
+  body      String
+  author    String?
+  ipHash    String
+  status    String   @default("visible")
+  createdAt DateTime @default(now())
+
+  @@index([target, createdAt])
+}
+
+/// 1-5 star rating. One rating per (target, ipHash); upsert on POST so the
+/// same visitor can change their mind without creating a second row.
+model Star {
+  id        String   @id @default(cuid())
+  target    String
+  rating    Int
+  ipHash    String
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  @@unique([target, ipHash])
+  @@index([target])
+}
+
+/// Free-form feedback / "was this useful?" + optional comment.
+/// kind: "helpful_yes" | "helpful_no" | "report" | "suggestion" | "free"
+model Feedback {
+  id        String   @id @default(cuid())
+  target    String?
+  kind      String
+  body      String?
+  ipHash    String
+  status    String   @default("visible")
+  createdAt DateTime @default(now())
+
+  @@index([target, createdAt])
+  @@index([kind])
+}
+
+model BlogPost {
+  id          String   @id @default(cuid())
+  slug        String   @unique
+  title       String
+  excerpt     String
+  body        String
+  publishedAt DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+  draft       Boolean  @default(false)
+
+  @@index([publishedAt])
+}
+
+model RateLimit {
+  key       String   @id
+  count     Int      @default(0)
+  windowEnd DateTime
+}
+
+/// Admin moderation audit log. One row per admin action (hide/delete/create/etc.).
+/// `action` is a dotted name like "comment.hide", "blog.create", "star.delete".
+/// `target` is the affected row's id or engagement target.
+/// `meta` is optional JSON for extra context (e.g. previous status, summary text).
+model AdminAudit {
+  id        String   @id @default(cuid())
+  action    String
+  target    String?
+  meta      String?
+  ipHash    String
+  createdAt DateTime @default(now())
+
+  @@index([createdAt])
+  @@index([action])
+}

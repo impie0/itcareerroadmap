@@ -1,0 +1,38 @@
+node_modules
+.next
+.git
+.gitignore
+.env
+.env.*
+!.env.example
+*.log
+
+# Markdown — exclude root meta-docs (not needed at runtime); KEEP wiki/ (rendered at runtime)
+*.md
+!README.md
+!CLAUDE.md
+!PLATFORM_README.md
+!BUILD_LOG.md
+!wiki/**/*.md
+.vscode
+.idea
+.DS_Store
+Thumbs.db
+coverage
+playwright-report
+test-results
+
+# Old static HTML — kept in repo as source of truth for porting, but don't ship in image
+IT_Roadmap.html
+IT_Career_Paths.html
+IT_Career_Flow.html
+IT_Role_Profiles.html
+IT_Career_Changers.html
+index.html
+_NOTE_OPEN_ONEDRIVE_VERSION.txt
+
+# Local DB never goes into image
+*.db
+*.db-journal
+*.sqlite
+data/

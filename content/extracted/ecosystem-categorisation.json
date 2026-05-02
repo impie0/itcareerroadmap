@@ -1,0 +1,244 @@
+{
+  "microsoft-dynamics365-ecosystem": {
+    "category": "saas",
+    "primaryDomain": "software",
+    "secondaryDomains": ["data-ai", "itmgmt"],
+    "notes": "Pure SaaS business-apps suite (D365 CRM/ERP + Power Platform low-code); PL-300 BI crosses to data-ai."
+  },
+  "oracle-ecosystem": {
+    "category": "saas",
+    "primaryDomain": "data-ai",
+    "secondaryDomains": ["cloud", "software", "systems"],
+    "notes": "Oracle Database is the primary anchor (data-ai); OCI is cloud, Fusion/EBS/PeopleSoft/NetSuite are software, Linux/Java/Solaris cross to systems."
+  },
+  "healthcare-it": {
+    "category": "vendor-only",
+    "primaryDomain": "systems",
+    "secondaryDomains": ["data-ai"],
+    "notes": "Multi-vendor topic (Epic, Oracle Health/Cerner, Meditech, HL7/FHIR, HIPAA); no single ecosystem anchor — keep as specialty track but cross-list to systems for clinical-system admins."
+  },
+  "aws-ecosystem": {
+    "category": "saas",
+    "primaryDomain": "cloud",
+    "secondaryDomains": ["security", "devops", "data-ai"],
+    "notes": "Hyperscaler cloud platform; specialty certs (Security, AI/ML, DevOps) cross to security/devops/data-ai."
+  },
+  "microsoft-azure-m365-ecosystem": {
+    "category": "saas",
+    "primaryDomain": "cloud",
+    "secondaryDomains": ["security", "devops", "data-ai", "identity"],
+    "notes": "Hyperscaler cloud + M365 productivity; AZ-500/SC-* cross to security, AI-102 to data-ai, SC-300 to identity."
+  },
+  "workday-ecosystem": {
+    "category": "saas",
+    "primaryDomain": "itmgmt",
+    "secondaryDomains": ["software"],
+    "notes": "Pure SaaS HCM/Financials platform — gated training; HR-systems specialization fits itmgmt column."
+  },
+  "adobe-experience-cloud": {
+    "category": "saas",
+    "primaryDomain": "software",
+    "secondaryDomains": ["data-ai"],
+    "notes": "SaaS digital experience suite (AEM, Analytics, Target, Marketo, Commerce); analytics/CDP certs cross to data-ai."
+  },
+  "observability-platforms": {
+    "category": "vendor-only",
+    "secondaryDomains": ["devops", "security"],
+    "notes": "Multi-vendor topic file (Datadog, New Relic, Dynatrace, Elastic, Honeycomb, AppDynamics, Prometheus/Grafana); no single primary domain — keep in vendor-only ladder."
+  },
+  "salesforce-ecosystem": {
+    "category": "saas",
+    "mergeWithExisting": "salesforce",
+    "notes": "Already exists as a top-level SaaS ecosystem mini-grid; merge Deep Dive certs into existing salesforce entry rather than cross-listing to a domain column."
+  },
+  "sap-ecosystem": {
+    "category": "saas",
+    "mergeWithExisting": "sap",
+    "notes": "Already exists as a top-level SaaS ecosystem mini-grid; merge Deep Dive certs into existing sap entry."
+  },
+  "servicenow-ecosystem": {
+    "category": "saas",
+    "mergeWithExisting": "servicenow",
+    "notes": "Already exists as a top-level SaaS ecosystem mini-grid; merge Deep Dive certs into existing servicenow entry."
+  },
+  "ibm-ecosystem": {
+    "category": "saas",
+    "primaryDomain": "systems",
+    "secondaryDomains": ["cloud", "data-ai", "security"],
+    "notes": "Mixed portfolio anchored by mainframe Z + AIX/Power + storage (systems); IBM Cloud crosses to cloud, watsonx to data-ai, Cloud Pak for Security to security. Mainframe doesn't fit any of the 6 hardware mini-grid subcategories so kept as saas."
+  },
+  "vmware-broadcom-ecosystem": {
+    "category": "hardware",
+    "hardwareSubcategory": "hypervisor",
+    "primaryDomain": "systems",
+    "secondaryDomains": ["cloud", "networking"],
+    "notes": "Virtualization/hypervisor leader (vSphere, vSAN, NSX, Tanzu); hypervisor-on-appliance ecosystem rooted in datacenter systems."
+  },
+  "cisco-ecosystem": {
+    "category": "hardware",
+    "hardwareSubcategory": "switch-router",
+    "primaryDomain": "networking",
+    "secondaryDomains": ["security", "devops"],
+    "notes": "Networking hardware leader (Catalyst, Nexus, ISR); CCNP Security/DevNet automation cross-list."
+  },
+  "juniper-ecosystem": {
+    "category": "hardware",
+    "hardwareSubcategory": "switch-router",
+    "primaryDomain": "networking",
+    "secondaryDomains": ["security"],
+    "notes": "Routing/switching hardware (MX, EX, QFX, Junos OS); Security track (JNCIS-SEC) cross-lists. Now part of HPE."
+  },
+  "hashicorp-ecosystem": {
+    "category": "saas",
+    "primaryDomain": "devops",
+    "secondaryDomains": ["security", "cloud"],
+    "notes": "Pure software IaC platform (Terraform, Vault, Consul); Vault crosses to security, IBM-acquired Feb 2025."
+  },
+  "paloalto-networks-ecosystem": {
+    "category": "hardware",
+    "hardwareSubcategory": "firewall",
+    "primaryDomain": "security",
+    "secondaryDomains": ["cloud", "identity"],
+    "notes": "NGFW appliance leader (Strata); Prisma Cloud crosses to cloud, CyberArk acquisition (Feb 2026) adds identity."
+  },
+  "crowdstrike-ecosystem": {
+    "category": "saas",
+    "primaryDomain": "security",
+    "secondaryDomains": ["identity"],
+    "notes": "Cloud-native EDR/XDR SaaS (Falcon platform); identity-protection module crosses to identity."
+  },
+  "atlassian-ecosystem": {
+    "category": "saas",
+    "primaryDomain": "devops",
+    "secondaryDomains": ["itmgmt"],
+    "notes": "SaaS dev collaboration suite (Jira, Confluence, Bitbucket, Opsgenie, Compass)."
+  },
+  "mulesoft-ecosystem": {
+    "category": "saas",
+    "primaryDomain": "architecture",
+    "secondaryDomains": ["software"],
+    "notes": "iPaaS/API-led integration platform (Anypoint); Salesforce subsidiary — integration-architect specialty."
+  },
+  "fortinet-ecosystem": {
+    "category": "hardware",
+    "hardwareSubcategory": "firewall",
+    "primaryDomain": "security",
+    "secondaryDomains": ["networking"],
+    "notes": "FortiGate NGFW appliance leader; FortiSASE/FortiSwitch cross to networking."
+  },
+  "checkpoint-ecosystem": {
+    "category": "hardware",
+    "hardwareSubcategory": "firewall",
+    "primaryDomain": "security",
+    "secondaryDomains": ["cloud"],
+    "notes": "Quantum NGFW appliances + CloudGuard; firewall-rooted security ecosystem."
+  },
+  "f5-ecosystem": {
+    "category": "hardware",
+    "hardwareSubcategory": "switch-router",
+    "primaryDomain": "networking",
+    "secondaryDomains": ["security"],
+    "notes": "BIG-IP ADC/load-balancer appliances + NGINX; closest hardware sub is switch-router (network-edge appliance). WAF/Distributed Cloud crosses to security."
+  },
+  "netapp-ecosystem": {
+    "category": "hardware",
+    "hardwareSubcategory": "storage",
+    "primaryDomain": "systems",
+    "secondaryDomains": ["cloud"],
+    "notes": "ONTAP storage arrays + cloud data services; storage-rooted ecosystem."
+  },
+  "purestorage-ecosystem": {
+    "category": "hardware",
+    "hardwareSubcategory": "storage",
+    "primaryDomain": "systems",
+    "secondaryDomains": ["data-ai"],
+    "notes": "All-flash storage arrays (FlashArray, FlashBlade); AI infrastructure partnerships cross to data-ai."
+  },
+  "veeam-ecosystem": {
+    "category": "saas",
+    "primaryDomain": "systems",
+    "secondaryDomains": ["security"],
+    "notes": "Backup/data-resilience software (no appliance); security-hardened backup crosses to security."
+  },
+  "nutanix-ecosystem": {
+    "category": "hardware",
+    "hardwareSubcategory": "hypervisor",
+    "primaryDomain": "systems",
+    "secondaryDomains": ["cloud"],
+    "notes": "HCI/AHV hypervisor on appliance — primary VMware-migration destination post-Broadcom."
+  },
+  "okta-ecosystem": {
+    "category": "saas",
+    "primaryDomain": "identity",
+    "secondaryDomains": ["security"],
+    "notes": "Cloud IAM SaaS (Workforce + Customer Identity/Auth0); Okta-Identity-Threat-Protection crosses to security."
+  },
+  "cyberark-ecosystem": {
+    "category": "saas",
+    "primaryDomain": "identity",
+    "secondaryDomains": ["security"],
+    "notes": "PAM market leader (now Palo Alto-owned Feb 2026); privileged access governance is identity-rooted."
+  },
+  "snowflake-ecosystem": {
+    "category": "saas",
+    "primaryDomain": "data-ai",
+    "secondaryDomains": [],
+    "notes": "Pure SaaS data cloud warehouse + Cortex AI; data-ai through and through."
+  },
+  "databricks-ecosystem": {
+    "category": "saas",
+    "primaryDomain": "data-ai",
+    "secondaryDomains": [],
+    "notes": "Lakehouse + ML platform; ML/Generative-AI engineer tracks all map to data-ai."
+  },
+  "splunk-ecosystem": {
+    "category": "saas",
+    "primaryDomain": "security",
+    "secondaryDomains": ["devops", "data-ai"],
+    "notes": "SIEM + observability SaaS (Cisco-owned); ES/SOAR security-rooted, observability cloud crosses to devops."
+  },
+  "aruba-hpe-ecosystem": {
+    "category": "hardware",
+    "hardwareSubcategory": "wireless-sd-wan",
+    "primaryDomain": "networking",
+    "secondaryDomains": ["security"],
+    "notes": "HPE Aruba wireless + CX switches + SD-WAN/EdgeConnect (Silver Peak); wireless-led networking hardware."
+  },
+  "arista-ecosystem": {
+    "category": "hardware",
+    "hardwareSubcategory": "switch-router",
+    "primaryDomain": "networking",
+    "secondaryDomains": ["devops"],
+    "notes": "Hyperscaler/AI data-center switching (EOS); automation-track (AVD/CloudVision) crosses to devops."
+  },
+  "sailpoint-ecosystem": {
+    "category": "saas",
+    "primaryDomain": "identity",
+    "secondaryDomains": ["security"],
+    "notes": "IGA market leader — pure governance/lifecycle SaaS; complements Okta (auth) and CyberArk (PAM)."
+  },
+  "cloudflare-ecosystem": {
+    "category": "saas",
+    "primaryDomain": "security",
+    "secondaryDomains": ["networking", "devops"],
+    "notes": "Edge/SASE platform — Cloudflare One unified security is 2026 anchor; Workers serverless crosses to devops, CDN/DNS to networking."
+  },
+  "sentinelone-ecosystem": {
+    "category": "saas",
+    "primaryDomain": "security",
+    "secondaryDomains": ["identity"],
+    "notes": "Singularity XDR/EDR SaaS; AI-SIEM/Purple AI direct CrowdStrike competitor."
+  },
+  "zscaler-ecosystem": {
+    "category": "saas",
+    "primaryDomain": "security",
+    "secondaryDomains": ["networking"],
+    "notes": "SSE/SASE leader (ZIA, ZPA, ZDX); zero-trust security-rooted with SD-WAN/networking cross-list."
+  },
+  "akamai-ecosystem": {
+    "category": "saas",
+    "primaryDomain": "networking",
+    "secondaryDomains": ["security", "cloud"],
+    "notes": "Legacy CDN pioneer turned edge/security/cloud platform; CDN/edge anchors networking, Akamai Security Suite + Connected Cloud (Linode) cross-list."
+  }
+}

@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Question or discussion
+    url: https://github.com/impie0/itcareerroadmap/discussions
+    about: For open-ended questions, ideas, and conversation, please use Discussions instead of an issue.
+  - name: Security vulnerability
+    url: https://github.com/impie0/itcareerroadmap/security/advisories/new
+    about: Do not file security issues publicly. Use the private security advisory channel.

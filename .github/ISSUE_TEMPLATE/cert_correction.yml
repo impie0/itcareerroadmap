@@ -1,0 +1,52 @@
+name: Cert correction
+description: A fact in a cert file or vendor cert path is wrong or out-of-date
+title: "[Cert correction] "
+labels: ["content", "cert-correction"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use this for: wrong exam code, retired cert still listed as active, broken
+        vendor URL, stale salary figure, incorrect retirement date, etc.
+
+        **Important**: please cite a primary source for the corrected fact.
+
+  - type: input
+    id: cert-file
+    attributes:
+      label: Affected file
+      description: The Markdown file that contains the wrong info.
+      placeholder: Deep Dive/Certifications/Microsoft/Microsoft_AZ-104.md
+    validations:
+      required: true
+
+  - type: textarea
+    id: current
+    attributes:
+      label: What the file currently says
+      description: Quote the line or row containing the wrong info.
+    validations:
+      required: true
+
+  - type: textarea
+    id: correct
+    attributes:
+      label: What the correct value is
+      description: The right answer.
+    validations:
+      required: true
+
+  - type: input
+    id: source
+    attributes:
+      label: Primary source URL
+      description: A link to the vendor / publisher page that confirms the corrected value.
+      placeholder: https://learn.microsoft.com/en-us/credentials/certifications/azure-administrator/
+    validations:
+      required: true
+
+  - type: textarea
+    id: notes
+    attributes:
+      label: Additional notes
+      description: Anything else (related certs that need the same fix, retirement context, etc.)

@@ -1,0 +1,98 @@
+networks:
+  default:
+    name: itrodmapblog_default
+    driver: bridge
+
+services:
+  db:
+    image: postgres:16-alpine
+    container_name: it-roadmap-db
+    restart: unless-stopped
+    networks: [default]
+    environment:
+      POSTGRES_USER: ${POSTGRES_USER:-it_roadmap}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-change-me-in-prod}
+      POSTGRES_DB: ${POSTGRES_DB:-it_roadmap}
+    volumes:
+      - db-data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ${POSTGRES_USER:-it_roadmap} -d ${POSTGRES_DB:-it_roadmap}"]
+      interval: 10s
+      timeout: 3s
+      retries: 5
+      start_period: 10s
+
+  web:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: it-roadmap-web:local
+    container_name: it-roadmap
+    restart: unless-stopped
+    networks: [default]
+    ports:
+      - "3000:3000"
+    environment:
+      NODE_ENV: production
+      SITE_MODE: public  # public site — middleware 404s any /admin path
+      DATABASE_URL: postgresql://${POSTGRES_USER:-it_roadmap}:${POSTGRES_PASSWORD:-change-me-in-prod}@db:5432/${POSTGRES_DB:-it_roadmap}?schema=public
+      IP_HASH_SALT: ${IP_HASH_SALT:-change-me-in-prod}
+    depends_on:
+      db:
+        condition: service_healthy
+    healthcheck:
+      test: ["CMD", "wget", "-qO-", "http://127.0.0.1:3000/"]
+      interval: 30s
+      timeout: 5s
+      retries: 3
+      start_period: 30s
+
+  admin:
+    # Reuses the same image built by the `web` service (no double build).
+    image: it-roadmap-web:local
+    container_name: it-roadmap-admin
+    restart: unless-stopped
+    networks: [default]
+    ports:
+      # Bound to 127.0.0.1 only — admin is reachable from your laptop via
+      # http://localhost:3010 but NOT from anywhere else on the LAN.
+      # Cloudflare tunnel still reaches it via the internal docker network
+      # (docker DNS hostname `admin` on internal port 3000).
+      - "127.0.0.1:3010:3000"
+    environment:
+      NODE_ENV: production
+      SITE_MODE: admin  # admin only — middleware 404s any non-/admin path
+      DATABASE_URL: postgresql://${POSTGRES_USER:-it_roadmap}:${POSTGRES_PASSWORD:-change-me-in-prod}@db:5432/${POSTGRES_DB:-it_roadmap}?schema=public
+      IP_HASH_SALT: ${IP_HASH_SALT:-change-me-in-prod}
+      ADMIN_PASSWORD_HASH: ${ADMIN_PASSWORD_HASH}
+      SESSION_SECRET: ${SESSION_SECRET}
+      # Where the public site lives — used to render clickable target URLs in admin moderation lists
+      PUBLIC_SITE_URL: ${PUBLIC_SITE_URL:-https://itcareerroadmap.com}
+    depends_on:
+      db:
+        condition: service_healthy
+      web:
+        # Admin reuses the image built by the web service — wait for that build to finish
+        condition: service_started
+    healthcheck:
+      test: ["CMD", "wget", "-qO-", "http://127.0.0.1:3000/admin/login"]
+      interval: 30s
+      timeout: 5s
+      retries: 3
+      start_period: 30s
+
+  cloudflared:
+    image: cloudflare/cloudflared:latest
+    container_name: it-roadmap-tunnel
+    restart: unless-stopped
+    networks: [default]
+    command: tunnel --no-autoupdate run
+    environment:
+      TUNNEL_TOKEN: ${CLOUDFLARE_TUNNEL_TOKEN}
+    depends_on:
+      - web
+      - admin
+
+volumes:
+  db-data:
+    driver: local

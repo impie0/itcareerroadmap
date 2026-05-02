@@ -1,0 +1,75 @@
+# ─── Build outputs ─────────────────────────────────────────────
+node_modules/
+.next/
+out/
+*.tsbuildinfo
+coverage/
+playwright-report/
+test-results/
+
+# ─── Secrets / runtime config ──────────────────────────────────
+# NEVER commit these. .env.example is the documented template.
+.env
+.env.local
+.env.*.local
+*.pem
+*.key
+credentials.json
+secrets.json
+
+# ─── Prisma generated client ───────────────────────────────────
+node_modules/.prisma/
+
+# ─── Local SQLite (legacy; we use Postgres in prod) ────────────
+*.db
+*.db-journal
+*.sqlite
+data/
+prisma/dev.db*
+
+# ─── Postgres backups ──────────────────────────────────────────
+# Don't commit DB dumps; they may contain user-submitted comments,
+# IP hashes, etc.
+backups/
+*.sql
+*.sql.gz
+
+# ─── OS / IDE state ────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ─── Editor / tool-specific state for content authoring ────────
+.obsidian/
+**/.obsidian/
+.claude/
+**/.claude/
+
+# ─── Logs ──────────────────────────────────────────────────────
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ─── Internal authoring scratch (not for public repo) ──────────
+# These are work-in-progress notes, audits, and backup snapshots
+# that don't belong in the published repo. The published Deep Dive/
+# tree should only contain templates + finished, citable content.
+Deep Dive Test/
+Deep_Dive_BACKUP_*/
+_archive_html/
+.session_dump.md
+_NOTE_OPEN_ONEDRIVE_VERSION.txt
+
+# ─── Internal Deep Dive working docs (keep folder, exclude these) ──
+Deep Dive/AUDIT_REPORT*.md
+Deep Dive/SESSION_STATUS_*.md
+Deep Dive/_audit_*.md
+Deep Dive/CERT_LIST*.md
+
+# ─── Misc ──────────────────────────────────────────────────────
+.turbo/
+.cache/

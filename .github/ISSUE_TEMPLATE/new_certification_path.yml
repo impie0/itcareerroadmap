@@ -1,0 +1,41 @@
+name: New vendor certification path
+description: Request or contribute a new vendor cert roadmap (Deep Dive/Certification_Roadmaps/)
+title: "[New cert path] "
+labels: ["content", "new-cert-path"]
+body:
+  - type: input
+    id: vendor
+    attributes:
+      label: Vendor
+      placeholder: e.g. Akamai, Splunk, Workday
+    validations:
+      required: true
+
+  - type: input
+    id: cert-count
+    attributes:
+      label: Approximate number of active certifications
+      placeholder: e.g. 8
+
+  - type: textarea
+    id: ecosystem
+    attributes:
+      label: Ecosystem description
+      description: One-line description of the vendor's certification ecosystem.
+      placeholder: Akamai CDN, security, and edge platform certifications
+
+  - type: textarea
+    id: starting-source
+    attributes:
+      label: Starting source URL
+      description: The vendor's main certification page (we'll start research from here).
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: contribute
+    attributes:
+      label: Are you offering to author this yourself?
+      options:
+        - label: I want to author this and submit a PR. Please send me the research prompt.
+        - label: I'm requesting it for someone else to pick up.
