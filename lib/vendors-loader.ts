@@ -34,18 +34,26 @@ export async function loadVendors(): Promise<VendorSummary[]> {
     map.get(slug)!.push(c);
   }
 
-  // Try to read optional Vendors/{Vendor}_Vendor_Overview.md files
-  const overviewByVendor = new Map<string, string>();
+  // Read optional vendor-overview files. Two file-naming conventions are accepted:
+  //  - Legacy:  {Vendor}_Vendor_Overview.md  with frontmatter `vendor: "Name"`
+  //  - v2 spec: V001_{Slug}_Overview.md       with frontmatter `vendor_name`/`vendor_slug`
+  // Either shape resolves to a string body keyed by lowercase name AND slug, so the
+  // matcher below finds it regardless of which convention the author used.
+  const overviewByKey = new Map<string, string>();
   try {
     const entries = await fs.readdir(VENDORS_DIR);
     for (const f of entries) {
       if (!f.endsWith(".md")) continue;
+      if (f.startsWith("_")) continue; // skip _VENDOR_OVERVIEW_TEMPLATE.md etc.
       const raw = await fs.readFile(path.join(VENDORS_DIR, f), "utf-8");
-      const fm = (matter(raw).data ?? {}) as Record<string, unknown>;
-      const vendor = ((fm.vendor as string) ?? "").trim();
-      if (!vendor) continue;
-      const body = matter(raw).content;
-      overviewByVendor.set(vendor.toLowerCase(), body);
+      const parsed = matter(raw);
+      const fm = (parsed.data ?? {}) as Record<string, unknown>;
+      const vendorName = ((fm.vendor_name as string) ?? (fm.vendor as string) ?? "").trim();
+      const vendorSlug = ((fm.vendor_slug as string) ?? "").trim();
+      if (!vendorName && !vendorSlug) continue;
+      const body = parsed.content;
+      if (vendorName) overviewByKey.set(vendorName.toLowerCase(), body);
+      if (vendorSlug) overviewByKey.set(vendorSlug.toLowerCase(), body);
     }
   } catch {
     /* no Vendors folder is fine */
@@ -76,9 +84,9 @@ export async function loadVendors(): Promise<VendorSummary[]> {
         return a.name.localeCompare(b.name);
       }),
       overviewMarkdown:
-        overviewByVendor.get(name.toLowerCase()) ??
-        overviewByVendor.get(slug) ??
-        overviewByVendor.get(vendorNameToSlug(name)),
+        overviewByKey.get(name.toLowerCase()) ??
+        overviewByKey.get(slug) ??
+        overviewByKey.get(vendorNameToSlug(name)),
     });
   }
 

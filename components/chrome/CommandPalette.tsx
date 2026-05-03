@@ -11,6 +11,8 @@ const KIND_LABEL: Record<Hit["kind"], string> = {
   cert: "Cert",
   vendor: "Vendor",
   certpath: "Cert Path",
+  careerpath: "Career Path",
+  changerguide: "Changer Guide",
   role: "Role",
   specialty: "Specialty",
   industry: "Industry",

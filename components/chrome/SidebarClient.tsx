@@ -4,16 +4,18 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 
 const TOP_NAV = [
-  { href: "/certs",                label: "Browse certs",        countKey: "certs"             as const },
-  { href: "/matrix",               label: "Matrix view",         countKey: undefined           as undefined },
-  { href: "/vendors",              label: "Vendors",             countKey: "vendors"           as const },
-  { href: "/certification-paths",  label: "Certification paths", countKey: "certificationPaths" as const },
+  { href: "/certs",                 label: "Browse certs",         countKey: "certs"              as const },
+  { href: "/matrix",                label: "Matrix view",          countKey: undefined            as undefined },
+  { href: "/vendors",               label: "Vendors",              countKey: "vendors"            as const },
+  { href: "/certification-paths",   label: "Certification paths",  countKey: "certificationPaths" as const },
+  { href: "/career-paths",          label: "Career paths",         countKey: "careerPaths"        as const },
+  { href: "/career-changers",       label: "Changer guides",       countKey: "careerChangers"     as const },
   { href: "/profiles",   label: "Role profiles",   countKey: "roles"      as const },
   { href: "/roadmaps",   label: "Roadmaps",        countKey: "roadmaps"   as const },
   { href: "/industries", label: "Industries",      countKey: "industries" as const },
   { href: "/topics",     label: "Topics",          countKey: "topics"     as const },
-  { href: "/paths",      label: "Career paths",    countKey: "paths"      as const },
-  { href: "/changers",   label: "Career changers", countKey: "changers"   as const },
+  { href: "/paths",      label: "Transitions",     countKey: "paths"      as const },
+  { href: "/changers",   label: "Changers",        countKey: "changers"   as const },
   { href: "/wiki",       label: "Wiki",            countKey: "wiki"       as const },
   { href: "/blog",       label: "Blog",            countKey: undefined    as undefined },
 ];
@@ -38,6 +40,8 @@ type DynamicCounts = {
   roadmaps?: number;
   topics?: number;
   certificationPaths?: number;
+  careerPaths?: number;
+  careerChangers?: number;
 };
 
 export function Sidebar({
@@ -56,6 +60,8 @@ export function Sidebar({
     certs: totalCerts,
     vendors: extra.vendors ?? 0,
     certificationPaths: extra.certificationPaths ?? 0,
+    careerPaths: extra.careerPaths ?? 0,
+    careerChangers: extra.careerChangers ?? 0,
     paths: 64,
     roles: 24,
     roadmaps: extra.roadmaps ?? 0,

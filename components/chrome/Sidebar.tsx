@@ -6,15 +6,19 @@ import { loadIndustries } from "@/lib/industries-loader";
 import { loadRoadmaps } from "@/lib/roadmaps-loader";
 import { loadTopics } from "@/lib/topics-loader";
 import { loadCertificationPaths } from "@/lib/certification-paths-loader";
+import { loadCareerPaths } from "@/lib/career-paths-loader";
+import { loadCareerChangers } from "@/lib/career-changers-loader";
 
 export async function Sidebar() {
-  const [data, vendors, industries, roadmaps, topics, certificationPaths] = await Promise.all([
+  const [data, vendors, industries, roadmaps, topics, certificationPaths, careerPaths, careerChangers] = await Promise.all([
     loadCertData(),
     loadVendors(),
     loadIndustries(),
     loadRoadmaps(),
     loadTopics(),
     loadCertificationPaths(),
+    loadCareerPaths(),
+    loadCareerChangers(),
   ]);
 
   const domains = data.domains.map((d) => ({
@@ -38,6 +42,8 @@ export async function Sidebar() {
         roadmaps: roadmaps.length,
         topics: topics.length,
         certificationPaths: certificationPaths.length,
+        careerPaths: careerPaths.length,
+        careerChangers: careerChangers.length,
       }}
     />
   );

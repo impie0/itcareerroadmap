@@ -9,6 +9,8 @@ import { loadRoadmaps } from "@/lib/roadmaps-loader";
 import { loadSpecialtyRoles } from "@/lib/specialty-roles-loader";
 import { loadTopics } from "@/lib/topics-loader";
 import { loadCertificationPaths } from "@/lib/certification-paths-loader";
+import { loadCareerPaths } from "@/lib/career-paths-loader";
+import { loadCareerChangers } from "@/lib/career-changers-loader";
 import { PATHS } from "@/content/transitions";
 import { ROLES } from "@/content/roles";
 import { CHANGERS } from "@/content/changers";
@@ -22,7 +24,7 @@ const POPULAR = [
 ];
 
 export default async function HomePage() {
-  const [data, vendors, industries, roadmaps, specialtyRoles, topics, certificationPaths] = await Promise.all([
+  const [data, vendors, industries, roadmaps, specialtyRoles, topics, certificationPaths, careerPaths, careerChangers] = await Promise.all([
     loadCertData(),
     loadVendors(),
     loadIndustries(),
@@ -30,6 +32,8 @@ export default async function HomePage() {
     loadSpecialtyRoles(),
     loadTopics(),
     loadCertificationPaths(),
+    loadCareerPaths(),
+    loadCareerChangers(),
   ]);
   const allDomains = [...data.domains, ...data.ecosystems, ...data.hardware];
   const allCerts = allDomains.reduce(
@@ -109,6 +113,18 @@ export default async function HomePage() {
           title="Certification paths"
           desc="End-to-end vendor roadmap with progression diagram, named pathways, branches, cross-vendor bridges, costs, and salary trajectories."
           meta={`${certificationPaths.length} path${certificationPaths.length === 1 ? "" : "s"}`}
+        />
+        <FeatureCard
+          href="/career-paths"
+          title="Career paths"
+          desc="How to become a [role] — cert sequence, 90-day plan, salary table, day-in-the-life, FAQ. One deep-dive per career."
+          meta={`${careerPaths.length} guide${careerPaths.length === 1 ? "" : "s"}`}
+        />
+        <FeatureCard
+          href="/career-changers"
+          title="Changer guides"
+          desc="Switching into IT from a non-IT background — transferable skills, 90-day plan, CV positioning, salary bridge, SA-specific resources."
+          meta={`${careerChangers.length} guide${careerChangers.length === 1 ? "" : "s"}`}
         />
         <FeatureCard
           href="/profiles"

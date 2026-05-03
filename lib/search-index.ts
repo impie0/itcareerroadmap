@@ -5,12 +5,14 @@ import { loadRoadmaps } from "@/lib/roadmaps-loader";
 import { loadSpecialtyRoles } from "@/lib/specialty-roles-loader";
 import { loadTopics } from "@/lib/topics-loader";
 import { loadCertificationPaths } from "@/lib/certification-paths-loader";
+import { loadCareerPaths } from "@/lib/career-paths-loader";
+import { loadCareerChangers } from "@/lib/career-changers-loader";
 import { PATHS } from "@/content/transitions";
 import { ROLES } from "@/content/roles";
 import { CHANGERS } from "@/content/changers";
 
 export type SearchHit = {
-  kind: "cert" | "role" | "transition" | "changer" | "page" | "vendor" | "industry" | "roadmap" | "topic" | "specialty" | "certpath";
+  kind: "cert" | "role" | "transition" | "changer" | "page" | "vendor" | "industry" | "roadmap" | "topic" | "specialty" | "certpath" | "careerpath" | "changerguide";
   label: string;
   meta?: string;
   href: string;
@@ -28,13 +30,15 @@ export const STATIC_PAGES: SearchHit[] = [
   { kind: "page", label: "Wiki",                meta: "deep research",             href: "/wiki" },
   { kind: "page", label: "Matrix view",         meta: "wallchart standalone",      href: "/matrix" },
   { kind: "page", label: "Certification paths", meta: "vendor roadmap docs",       href: "/certification-paths" },
+  { kind: "page", label: "Career path guides",   meta: "how to become a [role]",    href: "/career-paths" },
+  { kind: "page", label: "Career changer guides",meta: "non-IT background → IT",    href: "/career-changers" },
   { kind: "page", label: "Blog",                meta: "long-form posts",           href: "/blog" },
 ];
 
 export async function buildSearchIndex(): Promise<SearchHit[]> {
   const out: SearchHit[] = [...STATIC_PAGES];
 
-  const [allCerts, vendors, industries, roadmaps, specialtyRoles, topics, certPaths] = await Promise.all([
+  const [allCerts, vendors, industries, roadmaps, specialtyRoles, topics, certPaths, careerPaths, careerChangers] = await Promise.all([
     loadAllCertifications(),
     loadVendors(),
     loadIndustries(),
@@ -42,6 +46,8 @@ export async function buildSearchIndex(): Promise<SearchHit[]> {
     loadSpecialtyRoles(),
     loadTopics(),
     loadCertificationPaths(),
+    loadCareerPaths(),
+    loadCareerChangers(),
   ]);
 
   // Certs — each hit links to its per-cert deep-dive page (NOT a /certs#anchor that doesn't exist)
@@ -78,6 +84,12 @@ export async function buildSearchIndex(): Promise<SearchHit[]> {
   );
   certPaths.forEach((p) =>
     out.push({ kind: "certpath", label: `${p.vendor} certification path`, meta: p.fm.ecosystem ?? "vendor roadmap", href: `/certification-paths/${p.slug}` }),
+  );
+  careerPaths.forEach((p) =>
+    out.push({ kind: "careerpath", label: `How to become a ${p.roleTitle}`, meta: p.fm.domain ?? "career path", href: `/career-paths/${p.slug}` }),
+  );
+  careerChangers.forEach((c) =>
+    out.push({ kind: "changerguide", label: `${c.sourceProfession} → IT`, meta: c.fm.primary_target_role ?? "career changer", href: `/career-changers/${c.slug}` }),
   );
   specialtyRoles.forEach((s) =>
     out.push({ kind: "specialty", label: s.title, meta: `${s.code} · specialty role`, href: `/wiki/specialty/${s.slug}` }),
