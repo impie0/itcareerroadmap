@@ -34,11 +34,13 @@ export async function loadVendors(): Promise<VendorSummary[]> {
     map.get(slug)!.push(c);
   }
 
-  // Read optional vendor-overview files. Two file-naming conventions are accepted:
-  //  - Legacy:  {Vendor}_Vendor_Overview.md  with frontmatter `vendor: "Name"`
-  //  - v2 spec: V001_{Slug}_Overview.md       with frontmatter `vendor_name`/`vendor_slug`
-  // Either shape resolves to a string body keyed by lowercase name AND slug, so the
-  // matcher below finds it regardless of which convention the author used.
+  // Read optional vendor-overview files. Three frontmatter shapes are accepted
+  // (the corpus has all three because the templates evolved):
+  //  - Legacy:        vendor: "Name"
+  //  - v2 template:   vendor_name: "Name", vendor_slug: "slug"
+  //  - Deepdive std:  title: "...", kind: "vendor-overview", vendors: ["Name"]
+  // Each file resolves to a body keyed by lowercase name AND slug, so the
+  // matcher below finds it regardless of which shape was authored.
   const overviewByKey = new Map<string, string>();
   try {
     const entries = await fs.readdir(VENDORS_DIR);
@@ -48,12 +50,49 @@ export async function loadVendors(): Promise<VendorSummary[]> {
       const raw = await fs.readFile(path.join(VENDORS_DIR, f), "utf-8");
       const parsed = matter(raw);
       const fm = (parsed.data ?? {}) as Record<string, unknown>;
-      const vendorName = ((fm.vendor_name as string) ?? (fm.vendor as string) ?? "").trim();
-      const vendorSlug = ((fm.vendor_slug as string) ?? "").trim();
-      if (!vendorName && !vendorSlug) continue;
+
+      // Resolve a vendor display name from any of the three shapes
+      const vendorsArray = Array.isArray(fm.vendors) ? (fm.vendors as unknown[]) : [];
+      const firstVendorInArray = typeof vendorsArray[0] === "string" ? (vendorsArray[0] as string) : "";
+      const vendorName = (
+        (fm.vendor_name as string) ??
+        (fm.vendor as string) ??
+        firstVendorInArray ??
+        ""
+      ).toString().trim();
+
+      // Resolve a slug. v2 has vendor_slug. Deepdive shape has slug like
+      // "microsoft-vendor-overview" — strip that suffix so it matches the
+      // folder slug ("microsoft").
+      const rawSlug = ((fm.vendor_slug as string) ?? (fm.slug as string) ?? "").toString().trim();
+      const vendorSlug = rawSlug.replace(/[-_]vendor[-_]overview$/i, "");
+
+      // Fallback: derive a slug from the filename if no frontmatter gave us one
+      const fnameSlug = f
+        .replace(/\.md$/, "")
+        .replace(/^V\d+[_-]/i, "")
+        .replace(/[_-]Vendor[_-]Overview$/i, "")
+        .toLowerCase();
+
+      if (!vendorName && !vendorSlug && !fnameSlug) continue;
       const body = parsed.content;
       if (vendorName) overviewByKey.set(vendorName.toLowerCase(), body);
       if (vendorSlug) overviewByKey.set(vendorSlug.toLowerCase(), body);
+      if (fnameSlug)  overviewByKey.set(fnameSlug, body);
+
+      // Also key by the first chunk of vendor_name when it has a slash/comma
+      // separator. Handles "GIAC/SANS (...)" → "giac", "TOGAF / OpenGroup" →
+      // "togaf" — so the cert-folder slug ("giac", "togaf") finds a match.
+      if (vendorName) {
+        const firstChunk = vendorName.split(/[/,]/)[0]
+          ?.replace(/\(.+?\)/g, "")
+          .trim()
+          .toLowerCase();
+        if (firstChunk && firstChunk !== vendorName.toLowerCase()) {
+          // don't clobber a more-specific entry if one already exists
+          if (!overviewByKey.has(firstChunk)) overviewByKey.set(firstChunk, body);
+        }
+      }
     }
   } catch {
     /* no Vendors folder is fine */
